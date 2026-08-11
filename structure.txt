@@ -1,0 +1,3329 @@
+Folder PATH listing
+Volume serial number is CA63-B0BB
+C:.
+|   .editorconfig
+|   .gitignore
+|   .npmrc
+|   appsettings.bundles.json
+|   appsettings.Development.json
+|   appsettings.json
+|   package-lock.json
+|   package.json
+|   sergen.json
+|   structure.txt
+|   TaskFlowSerenity.Web.csproj
+|   tsbuild.js
+|   tsconfig.json
+|   tslint.json
+|   web.config
+|   Welcome.htm
+|   
++---.config
+|       dotnet-tools.json
+|       
++---bin
+|   \---Debug
+|       \---net10.0
+|           |   appsettings.bundles.json
+|           |   appsettings.Development.json
+|           |   appsettings.json
+|           |   BouncyCastle.Cryptography.dll
+|           |   ClosedXML.dll
+|           |   ClosedXML.Parser.dll
+|           |   Dapper.dll
+|           |   DocumentFormat.OpenXml.dll
+|           |   DocumentFormat.OpenXml.Framework.dll
+|           |   ExcelNumberFormat.dll
+|           |   FastMember.dll
+|           |   FirebirdSql.Data.FirebirdClient.dll
+|           |   FluentMigrator.Abstractions.dll
+|           |   FluentMigrator.dll
+|           |   FluentMigrator.Extensions.MySql.dll
+|           |   FluentMigrator.Extensions.Oracle.dll
+|           |   FluentMigrator.Extensions.Postgres.dll
+|           |   FluentMigrator.Extensions.SqlServer.dll
+|           |   FluentMigrator.Runner.Core.dll
+|           |   FluentMigrator.Runner.Firebird.dll
+|           |   FluentMigrator.Runner.MySql.dll
+|           |   FluentMigrator.Runner.Oracle.dll
+|           |   FluentMigrator.Runner.Postgres.dll
+|           |   FluentMigrator.Runner.SQLite.dll
+|           |   FluentMigrator.Runner.SqlServer.dll
+|           |   MailKit.dll
+|           |   Microsoft.Bcl.Cryptography.dll
+|           |   Microsoft.Data.SqlClient.dll
+|           |   Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+|           |   Microsoft.Data.SqlClient.Internal.Logging.dll
+|           |   Microsoft.Data.Sqlite.dll
+|           |   Microsoft.IdentityModel.Abstractions.dll
+|           |   Microsoft.IdentityModel.JsonWebTokens.dll
+|           |   Microsoft.IdentityModel.Logging.dll
+|           |   Microsoft.IdentityModel.Protocols.dll
+|           |   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+|           |   Microsoft.IdentityModel.Tokens.dll
+|           |   Microsoft.SqlServer.Server.dll
+|           |   MimeKit.dll
+|           |   nClam.dll
+|           |   Newtonsoft.Json.dll
+|           |   NUglify.dll
+|           |   RBush.dll
+|           |   Serenity.Assets.dll
+|           |   Serenity.Corelib.dll
+|           |   Serenity.Demo.BasicSamples.dll
+|           |   Serenity.Demo.Northwind.dll
+|           |   Serenity.DomWise.dll
+|           |   Serenity.Extensions.dll
+|           |   Serenity.Net.Core.dll
+|           |   Serenity.Net.Services.dll
+|           |   Serenity.Net.Web.dll
+|           |   Serenity.SleekGrid.dll
+|           |   SixLabors.Fonts.dll
+|           |   SixLabors.ImageSharp.dll
+|           |   SQLitePCLRaw.batteries_v2.dll
+|           |   SQLitePCLRaw.core.dll
+|           |   SQLitePCLRaw.provider.e_sqlite3.dll
+|           |   System.Configuration.ConfigurationManager.dll
+|           |   System.IdentityModel.Tokens.Jwt.dll
+|           |   System.IO.Packaging.dll
+|           |   System.Security.Cryptography.ProtectedData.dll
+|           |   TaskFlowSerenity.Web.deps.json
+|           |   TaskFlowSerenity.Web.dll
+|           |   TaskFlowSerenity.Web.exe
+|           |   TaskFlowSerenity.Web.pdb
+|           |   TaskFlowSerenity.Web.runtimeconfig.json
+|           |   TaskFlowSerenity.Web.staticwebassets.endpoints.json
+|           |   TaskFlowSerenity.Web.staticwebassets.runtime.json
+|           |   web.config
+|           |   
+|           +---cs
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---de
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---de-DE
+|           |       FluentMigrator.Abstractions.resources.dll
+|           |       
+|           +---es
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---fr
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---it
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---ja
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---ko
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---pl
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---pt-BR
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---ru
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---runtimes
+|           |   +---android-arm
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---android-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---android-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---android-x86
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---browser-wasm
+|           |   |   \---nativeassets
+|           |   |       \---net9.0
+|           |   |               e_sqlite3.a
+|           |   |               
+|           |   +---ios-arm
+|           |   |   \---native
+|           |   |           e_sqlite3.a
+|           |   |           
+|           |   +---ios-arm64
+|           |   |   \---native
+|           |   |           e_sqlite3.a
+|           |   |           
+|           |   +---iossimulator-arm64
+|           |   |   \---native
+|           |   |           e_sqlite3.a
+|           |   |           
+|           |   +---iossimulator-x64
+|           |   |   \---native
+|           |   |           e_sqlite3.a
+|           |   |           
+|           |   +---linux-arm
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-armel
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-mips64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-arm
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-riscv64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-s390x
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-ppc64le
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-riscv64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-s390x
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-x86
+|           |   |   \---native
+|           |   |           libe_sqlite3.a
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---maccatalyst-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---maccatalyst-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---osx-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---osx-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---unix
+|           |   |   \---lib
+|           |   |       \---net9.0
+|           |   |               Microsoft.Data.SqlClient.dll
+|           |   |               
+|           |   +---win
+|           |   |   \---lib
+|           |   |       \---net9.0
+|           |   |               Microsoft.Data.SqlClient.dll
+|           |   |               
+|           |   +---win-arm64
+|           |   |   \---native
+|           |   |           e_sqlite3.dll
+|           |   |           Microsoft.Data.SqlClient.SNI.dll
+|           |   |           
+|           |   +---win-x64
+|           |   |   \---native
+|           |   |           e_sqlite3.dll
+|           |   |           Microsoft.Data.SqlClient.SNI.dll
+|           |   |           
+|           |   \---win-x86
+|           |       \---native
+|           |               e_sqlite3.dll
+|           |               Microsoft.Data.SqlClient.SNI.dll
+|           |               
+|           +---tr
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           +---zh-Hans
+|           |       Microsoft.Data.SqlClient.resources.dll
+|           |       
+|           \---zh-Hant
+|                   Microsoft.Data.SqlClient.resources.dll
+|                   
++---Imports
+|   +---ClientTypes
+|   |       Administration.PermissionCheckEditorAttribute.cs
+|   |       Administration.RoleCheckEditorAttribute.cs
+|   |       
+|   \---MVC
+|           ESM.cs
+|           MVC.cs
+|           
++---Initialization
+|       Program.cs
+|       Startup.cs
+|       
++---Migrations
+|   \---DefaultDB
+|           DefaultDB_20141103_1400_Initial.cs
+|           DefaultDB_20141111_1130_Permissions.cs
+|           DefaultDB_20160515_0726_UserPreferences.cs
+|           DefaultDB_20161029_1300_ExceptionLog.cs
+|           
++---Modules
+|   |   _ViewImports.cshtml
+|   |   _ViewStart.cshtml
+|   |   
+|   +---Administration
+|   |   |   AdministrationNavigation.cs
+|   |   |   AdministrationPermissionKeys.cs
+|   |   |   
+|   |   +---Language
+|   |   |   |   LanguageColumns.cs
+|   |   |   |   LanguageDialog.ts
+|   |   |   |   LanguageEndpoint.cs
+|   |   |   |   LanguageForm.cs
+|   |   |   |   LanguageGrid.ts
+|   |   |   |   LanguagePage.cs
+|   |   |   |   LanguagePage.ts
+|   |   |   |   LanguageRow.cs
+|   |   |   |   
+|   |   |   \---RequestHandlers
+|   |   |           LanguageDeleteHandler.cs
+|   |   |           LanguageListHandler.cs
+|   |   |           LanguageRetrieveHandler.cs
+|   |   |           LanguageSaveHandler.cs
+|   |   |           
+|   |   +---Role
+|   |   |   |   RoleColumns.cs
+|   |   |   |   RoleDialog.ts
+|   |   |   |   RoleEndpoint.cs
+|   |   |   |   RoleForm.cs
+|   |   |   |   RoleGrid.ts
+|   |   |   |   RoleHelper.cs
+|   |   |   |   RolePage.cs
+|   |   |   |   RolePage.ts
+|   |   |   |   RoleRow.cs
+|   |   |   |   
+|   |   |   \---RequestHandlers
+|   |   |           RoleDeleteHandler.cs
+|   |   |           RoleListHandler.cs
+|   |   |           RoleRetrieveHandler.cs
+|   |   |           RoleSaveHandler.cs
+|   |   |           
+|   |   +---RolePermission
+|   |   |       RolePermissionDialog.tsx
+|   |   |       RolePermissionDialogTexts.cs
+|   |   |       RolePermissionEndpoint.cs
+|   |   |       RolePermissionListRequest.cs
+|   |   |       RolePermissionListResponse.cs
+|   |   |       RolePermissionRepository.cs
+|   |   |       RolePermissionRow.cs
+|   |   |       RolePermissionUpdateRequest.cs
+|   |   |       
+|   |   +---Translation
+|   |   |       TranslationEndpoint.cs
+|   |   |       TranslationGrid.tsx
+|   |   |       TranslationItem.cs
+|   |   |       TranslationListRequest.cs
+|   |   |       TranslationPage.cs
+|   |   |       TranslationPage.ts
+|   |   |       TranslationRepository.cs
+|   |   |       TranslationUpdateRequest.cs
+|   |   |       
+|   |   +---User
+|   |   |   |   LoggingRow.cs
+|   |   |   |   UserColumns.cs
+|   |   |   |   UserDataScript.cs
+|   |   |   |   UserDialog.ts
+|   |   |   |   UserDialogTexts.cs
+|   |   |   |   UserEndpoint.cs
+|   |   |   |   UserForm.cs
+|   |   |   |   UserGrid.tsx
+|   |   |   |   UserHelper.cs
+|   |   |   |   UserListRequest.cs
+|   |   |   |   UserPage.cs
+|   |   |   |   UserPage.ts
+|   |   |   |   UserRow.cs
+|   |   |   |   
+|   |   |   +---Authentication
+|   |   |   |       Authorization.ts
+|   |   |   |       
+|   |   |   \---RequestHandlers
+|   |   |           UserDeleteHandler.cs
+|   |   |           UserListHandler.cs
+|   |   |           UserRetrieveHandler.cs
+|   |   |           UserSaveHandler.cs
+|   |   |           
+|   |   +---UserPermission
+|   |   |       ImplicitPermissionsDataScript.cs
+|   |   |       PermissionCheckEditor.tsx
+|   |   |       PermissionKeysDataScript.cs
+|   |   |       UserPermissionDialog.tsx
+|   |   |       UserPermissionDialogTexts.cs
+|   |   |       UserPermissionEndpoint.cs
+|   |   |       UserPermissionListRequest.cs
+|   |   |       UserPermissionRepository.cs
+|   |   |       UserPermissionRow.cs
+|   |   |       UserPermissionUpdateRequest.cs
+|   |   |       
+|   |   \---UserRole
+|   |           RoleCheckEditor.ts
+|   |           UserRoleEndpoint.cs
+|   |           UserRoleListRequest.cs
+|   |           UserRoleListResponse.cs
+|   |           UserRoleRepository.cs
+|   |           UserRoleRow.cs
+|   |           UserRoleUpdateRequest.cs
+|   |           
+|   +---Common
+|   |   |   ScriptInit.ts
+|   |   |   
+|   |   +---AppServices
+|   |   |   |   DataMigrations.cs
+|   |   |   |   DynamicDataGenerator.cs
+|   |   |   |   PermissionKeyLister.cs
+|   |   |   |   PermissionService.cs
+|   |   |   |   RolePermissionService.cs
+|   |   |   |   UserAccessor.cs
+|   |   |   |   UserCultureProvider.cs
+|   |   |   |   UserPasswordValidator.cs
+|   |   |   |   UserRetrieveService.cs
+|   |   |   |   
+|   |   |   +---Abstractions
+|   |   |   |       IDataMigrations.cs
+|   |   |   |       IDirectoryService.cs
+|   |   |   |       
+|   |   |   \---Models
+|   |   |           DirectoryEntry.cs
+|   |   |           ScriptUserDefinition.cs
+|   |   |           UserDefinition.cs
+|   |   |           
+|   |   +---Dashboard
+|   |   |       DashboardIndex.cshtml
+|   |   |       DashboardPage.cs
+|   |   |       DashboardPageModel.cs
+|   |   |       
+|   |   +---File
+|   |   |       FilePage.cs
+|   |   |       
+|   |   +---Helpers
+|   |   |       HumanizeSqlExceptionBehavior.cs
+|   |   |       LanguageList.ts
+|   |   |       SqlExceptionHelper.cs
+|   |   |       SqlExceptionHelperTexts.cs
+|   |   |       
+|   |   \---Navigation
+|   |           NavigationItems.cs
+|   |           NavigationModel.cs
+|   |           NavigationModelFactory.cs
+|   |           
+|   +---Membership
+|   |   |   MembershipValidationTexts.cs
+|   |   |   
+|   |   \---Account
+|   |       |   AccountPage.cs
+|   |       |   AccountPanelTitle.tsx
+|   |       |   AccountPasswordActionsPage.cs
+|   |       |   
+|   |       +---Login
+|   |       |       LoginFormTexts.cs
+|   |       |       LoginPage.cshtml
+|   |       |       LoginPage.tsx
+|   |       |       LoginRequest.cs
+|   |       |       
+|   |       \---SignUp
+|   |               AccountPage.SignUp.cs
+|   |               ActivateEmail.cshtml
+|   |               ActivateEmailModel.cs
+|   |               SignUpForm.cs
+|   |               SignUpFormTexts.cs
+|   |               SignUpPage.cshtml
+|   |               SignUpPage.tsx
+|   |               SignUpRequest.cs
+|   |               SignUpResponse.cs
+|   |               
+|   \---ServerTypes
+|       |   Administration.ts
+|       |   Membership.ts
+|       |   Namespaces.ts
+|       |   RemoteDataKeys.ts
+|       |   ScriptUserDefinition.ts
+|       |   Texts.ts
+|       |   
+|       +---Administration
+|       |       LanguageColumns.ts
+|       |       LanguageForm.ts
+|       |       LanguageRow.ts
+|       |       LanguageService.ts
+|       |       PermissionKeys.ts
+|       |       RoleColumns.ts
+|       |       RoleForm.ts
+|       |       RolePermissionListRequest.ts
+|       |       RolePermissionListResponse.ts
+|       |       RolePermissionRow.ts
+|       |       RolePermissionService.ts
+|       |       RolePermissionUpdateRequest.ts
+|       |       RoleRow.ts
+|       |       RoleService.ts
+|       |       TranslationItem.ts
+|       |       TranslationListRequest.ts
+|       |       TranslationService.ts
+|       |       TranslationUpdateRequest.ts
+|       |       UserColumns.ts
+|       |       UserForm.ts
+|       |       UserListRequest.ts
+|       |       UserPermissionListRequest.ts
+|       |       UserPermissionRow.ts
+|       |       UserPermissionService.ts
+|       |       UserPermissionUpdateRequest.ts
+|       |       UserRoleListRequest.ts
+|       |       UserRoleListResponse.ts
+|       |       UserRoleRow.ts
+|       |       UserRoleService.ts
+|       |       UserRoleUpdateRequest.ts
+|       |       UserRow.ts
+|       |       UserService.ts
+|       |       
+|       \---Membership
+|               LoginForm.ts
+|               LoginRequest.ts
+|               SignUpForm.ts
+|               SignUpRequest.ts
+|               SignUpResponse.ts
+|               
++---node_modules
+|   |   .package-lock.json
+|   |   
+|   +---.bin
+|   |       esbuild
+|   |       esbuild.cmd
+|   |       esbuild.ps1
+|   |       
+|   +---.dotnet
+|   |   +---serenity.assets
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---wwwroot
+|   |   |       +---bootstrap
+|   |   |       |   +---css
+|   |   |       |   |       bootstrap.css
+|   |   |       |   |       bootstrap.min.css
+|   |   |       |   |       bootstrap.rtl.css
+|   |   |       |   |       bootstrap.rtl.min.css
+|   |   |       |   |       
+|   |   |       |   \---js
+|   |   |       |           bootstrap.bundle.js
+|   |   |       |           bootstrap.bundle.min.js
+|   |   |       |           
+|   |   |       +---fonts
+|   |   |       |   +---open-sans
+|   |   |       |   |       open-sans-400.woff2
+|   |   |       |   |       open-sans-500.woff2
+|   |   |       |   |       open-sans-600.woff2
+|   |   |       |   |       open-sans.css
+|   |   |       |   |       
+|   |   |       |   \---poppins
+|   |   |       |           poppins-400.woff2
+|   |   |       |           poppins-500.woff2
+|   |   |       |           poppins-600.woff2
+|   |   |       |           poppins.css
+|   |   |       |           
+|   |   |       +---glightbox
+|   |   |       |   +---css
+|   |   |       |   |       glightbox.css
+|   |   |       |   |       
+|   |   |       |   \---js
+|   |   |       |           glightbox.js
+|   |   |       |           
+|   |   |       +---jquery
+|   |   |       |       jquery.js
+|   |   |       |       jquery.min.js
+|   |   |       |       
+|   |   |       +---jspdf
+|   |   |       |       jspdf-autotable.bundle.js
+|   |   |       |       
+|   |   |       +---line-awesome
+|   |   |       |   +---css
+|   |   |       |   |       line-awesome-fa.css
+|   |   |       |   |       line-awesome-fa.min.css
+|   |   |       |   |       
+|   |   |       |   \---fonts
+|   |   |       |           la-brands-400.woff2
+|   |   |       |           la-regular-400.woff2
+|   |   |       |           la-solid-900.woff2
+|   |   |       |           
+|   |   |       +---logo
+|   |   |       |       blue-128.png
+|   |   |       |       white-128.png
+|   |   |       |       
+|   |   |       +---mousetrap
+|   |   |       |       mousetrap.js
+|   |   |       |       mousetrap.min.js
+|   |   |       |       
+|   |   |       +---nprogress
+|   |   |       |       nprogress.css
+|   |   |       |       nprogress.js
+|   |   |       |       
+|   |   |       +---Scripts
+|   |   |       |       sortable.js
+|   |   |       |       sortable.min.js
+|   |   |       |       
+|   |   |       \---tiptap
+|   |   |               tiptap.bundle.js
+|   |   |               
+|   |   +---serenity.corelib
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           
+|   |   +---serenity.demo.northwind
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.css
+|   |   |           index.css.map
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           
+|   |   +---serenity.domwise
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           jsx-runtime.d.ts
+|   |   |           jsx-runtime.js
+|   |   |           jsx-runtime.js.map
+|   |   |           
+|   |   +---serenity.extensions
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           
+|   |   \---serenity.sleekgrid
+|   |       |   package.dotnet.json
+|   |       |   package.json
+|   |       |   
+|   |       \---dist
+|   |           |   index.d.ts
+|   |           |   index.js
+|   |           |   index.js.map
+|   |           |   index.min.js
+|   |           |   index.min.js.map
+|   |           |   
+|   |           \---compat
+|   |                   slick.core.js
+|   |                   slick.core.js.map
+|   |                   slick.core.min.js
+|   |                   slick.core.min.js.map
+|   |                   
+|   +---@esbuild
+|   |   \---win32-x64
+|   |           esbuild.exe
+|   |           package.json
+|   |           README.md
+|   |           
+|   +---@kurkle
+|   |   \---color
+|   |       |   LICENSE.md
+|   |       |   package.json
+|   |       |   README.md
+|   |       |   
+|   |       \---dist
+|   |               color.cjs
+|   |               color.d.ts
+|   |               color.esm.js
+|   |               color.min.js
+|   |               color.min.js.map
+|   |               
+|   +---@serenity-is
+|   |   +---assets
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---wwwroot
+|   |   |       +---bootstrap
+|   |   |       |   +---css
+|   |   |       |   |       bootstrap.css
+|   |   |       |   |       bootstrap.min.css
+|   |   |       |   |       bootstrap.rtl.css
+|   |   |       |   |       bootstrap.rtl.min.css
+|   |   |       |   |       
+|   |   |       |   \---js
+|   |   |       |           bootstrap.bundle.js
+|   |   |       |           bootstrap.bundle.min.js
+|   |   |       |           
+|   |   |       +---fonts
+|   |   |       |   +---open-sans
+|   |   |       |   |       open-sans-400.woff2
+|   |   |       |   |       open-sans-500.woff2
+|   |   |       |   |       open-sans-600.woff2
+|   |   |       |   |       open-sans.css
+|   |   |       |   |       
+|   |   |       |   \---poppins
+|   |   |       |           poppins-400.woff2
+|   |   |       |           poppins-500.woff2
+|   |   |       |           poppins-600.woff2
+|   |   |       |           poppins.css
+|   |   |       |           
+|   |   |       +---glightbox
+|   |   |       |   +---css
+|   |   |       |   |       glightbox.css
+|   |   |       |   |       
+|   |   |       |   \---js
+|   |   |       |           glightbox.js
+|   |   |       |           
+|   |   |       +---jquery
+|   |   |       |       jquery.js
+|   |   |       |       jquery.min.js
+|   |   |       |       
+|   |   |       +---jspdf
+|   |   |       |       jspdf-autotable.bundle.js
+|   |   |       |       
+|   |   |       +---line-awesome
+|   |   |       |   +---css
+|   |   |       |   |       line-awesome-fa.css
+|   |   |       |   |       line-awesome-fa.min.css
+|   |   |       |   |       
+|   |   |       |   \---fonts
+|   |   |       |           la-brands-400.woff2
+|   |   |       |           la-regular-400.woff2
+|   |   |       |           la-solid-900.woff2
+|   |   |       |           
+|   |   |       +---logo
+|   |   |       |       blue-128.png
+|   |   |       |       white-128.png
+|   |   |       |       
+|   |   |       +---mousetrap
+|   |   |       |       mousetrap.js
+|   |   |       |       mousetrap.min.js
+|   |   |       |       
+|   |   |       +---nprogress
+|   |   |       |       nprogress.css
+|   |   |       |       nprogress.js
+|   |   |       |       
+|   |   |       +---Scripts
+|   |   |       |       sortable.js
+|   |   |       |       sortable.min.js
+|   |   |       |       
+|   |   |       \---tiptap
+|   |   |               tiptap.bundle.js
+|   |   |               
+|   |   +---corelib
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           
+|   |   +---demo.northwind
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.css
+|   |   |           index.css.map
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           
+|   |   +---domwise
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           jsx-runtime.d.ts
+|   |   |           jsx-runtime.js
+|   |   |           jsx-runtime.js.map
+|   |   |           
+|   |   +---extensions
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           index.js.map
+|   |   |           
+|   |   +---sleekgrid
+|   |   |   |   package.dotnet.json
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---dist
+|   |   |       |   index.d.ts
+|   |   |       |   index.js
+|   |   |       |   index.js.map
+|   |   |       |   index.min.js
+|   |   |       |   index.min.js.map
+|   |   |       |   
+|   |   |       \---compat
+|   |   |               slick.core.js
+|   |   |               slick.core.js.map
+|   |   |               slick.core.min.js
+|   |   |               slick.core.min.js.map
+|   |   |               
+|   |   \---tsbuild
+|   |       |   LICENSE.md
+|   |       |   package.json
+|   |       |   
+|   |       \---dist
+|   |               index.d.ts
+|   |               index.js
+|   |               
+|   +---@types
+|   |   \---trusted-types
+|   |       |   index.d.ts
+|   |       |   LICENSE
+|   |       |   package.json
+|   |       |   README.md
+|   |       |   
+|   |       \---lib
+|   |               index.d.ts
+|   |               
+|   +---bootstrap-datepicker
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---build
+|   |   |       build.less
+|   |   |       build3.less
+|   |   |       build_standalone.less
+|   |   |       build_standalone3.less
+|   |   |       
+|   |   +---dist
+|   |   |   +---css
+|   |   |   |       bootstrap-datepicker.css
+|   |   |   |       bootstrap-datepicker.css.map
+|   |   |   |       bootstrap-datepicker.min.css
+|   |   |   |       bootstrap-datepicker.standalone.css
+|   |   |   |       bootstrap-datepicker.standalone.css.map
+|   |   |   |       bootstrap-datepicker.standalone.min.css
+|   |   |   |       bootstrap-datepicker3.css
+|   |   |   |       bootstrap-datepicker3.css.map
+|   |   |   |       bootstrap-datepicker3.min.css
+|   |   |   |       bootstrap-datepicker3.standalone.css
+|   |   |   |       bootstrap-datepicker3.standalone.css.map
+|   |   |   |       bootstrap-datepicker3.standalone.min.css
+|   |   |   |       
+|   |   |   +---js
+|   |   |   |       bootstrap-datepicker.js
+|   |   |   |       bootstrap-datepicker.min.js
+|   |   |   |       
+|   |   |   \---locales
+|   |   |           bootstrap-datepicker-en-CA.min.js
+|   |   |           bootstrap-datepicker.ar-DZ.min.js
+|   |   |           bootstrap-datepicker.ar-tn.min.js
+|   |   |           bootstrap-datepicker.ar.min.js
+|   |   |           bootstrap-datepicker.az.min.js
+|   |   |           bootstrap-datepicker.bg.min.js
+|   |   |           bootstrap-datepicker.bm.min.js
+|   |   |           bootstrap-datepicker.bn.min.js
+|   |   |           bootstrap-datepicker.br.min.js
+|   |   |           bootstrap-datepicker.bs.min.js
+|   |   |           bootstrap-datepicker.ca.min.js
+|   |   |           bootstrap-datepicker.cs.min.js
+|   |   |           bootstrap-datepicker.cy.min.js
+|   |   |           bootstrap-datepicker.da.min.js
+|   |   |           bootstrap-datepicker.de.min.js
+|   |   |           bootstrap-datepicker.el.min.js
+|   |   |           bootstrap-datepicker.en-AU.min.js
+|   |   |           bootstrap-datepicker.en-CA.min.js
+|   |   |           bootstrap-datepicker.en-GB.min.js
+|   |   |           bootstrap-datepicker.en-IE.min.js
+|   |   |           bootstrap-datepicker.en-NZ.min.js
+|   |   |           bootstrap-datepicker.en-US.min.js
+|   |   |           bootstrap-datepicker.en-ZA.min.js
+|   |   |           bootstrap-datepicker.eo.min.js
+|   |   |           bootstrap-datepicker.es.min.js
+|   |   |           bootstrap-datepicker.et.min.js
+|   |   |           bootstrap-datepicker.eu.min.js
+|   |   |           bootstrap-datepicker.fa.min.js
+|   |   |           bootstrap-datepicker.fi.min.js
+|   |   |           bootstrap-datepicker.fo.min.js
+|   |   |           bootstrap-datepicker.fr-CH.min.js
+|   |   |           bootstrap-datepicker.fr.min.js
+|   |   |           bootstrap-datepicker.gl.min.js
+|   |   |           bootstrap-datepicker.he.min.js
+|   |   |           bootstrap-datepicker.hi.min.js
+|   |   |           bootstrap-datepicker.hr.min.js
+|   |   |           bootstrap-datepicker.hu.min.js
+|   |   |           bootstrap-datepicker.hy.min.js
+|   |   |           bootstrap-datepicker.id.min.js
+|   |   |           bootstrap-datepicker.is.min.js
+|   |   |           bootstrap-datepicker.it-CH.min.js
+|   |   |           bootstrap-datepicker.it.min.js
+|   |   |           bootstrap-datepicker.ja.min.js
+|   |   |           bootstrap-datepicker.ka.min.js
+|   |   |           bootstrap-datepicker.kh.min.js
+|   |   |           bootstrap-datepicker.kk.min.js
+|   |   |           bootstrap-datepicker.km.min.js
+|   |   |           bootstrap-datepicker.ko.min.js
+|   |   |           bootstrap-datepicker.kr.min.js
+|   |   |           bootstrap-datepicker.lt.min.js
+|   |   |           bootstrap-datepicker.lv.min.js
+|   |   |           bootstrap-datepicker.me.min.js
+|   |   |           bootstrap-datepicker.mk.min.js
+|   |   |           bootstrap-datepicker.mn.min.js
+|   |   |           bootstrap-datepicker.mr.min.js
+|   |   |           bootstrap-datepicker.ms.min.js
+|   |   |           bootstrap-datepicker.nl-BE.min.js
+|   |   |           bootstrap-datepicker.nl.min.js
+|   |   |           bootstrap-datepicker.no.min.js
+|   |   |           bootstrap-datepicker.oc.min.js
+|   |   |           bootstrap-datepicker.pl.min.js
+|   |   |           bootstrap-datepicker.pt-BR.min.js
+|   |   |           bootstrap-datepicker.pt.min.js
+|   |   |           bootstrap-datepicker.ro.min.js
+|   |   |           bootstrap-datepicker.rs-latin.min.js
+|   |   |           bootstrap-datepicker.rs.min.js
+|   |   |           bootstrap-datepicker.ru.min.js
+|   |   |           bootstrap-datepicker.si.min.js
+|   |   |           bootstrap-datepicker.sk.min.js
+|   |   |           bootstrap-datepicker.sl.min.js
+|   |   |           bootstrap-datepicker.sq.min.js
+|   |   |           bootstrap-datepicker.sr-latin.min.js
+|   |   |           bootstrap-datepicker.sr.min.js
+|   |   |           bootstrap-datepicker.sv.min.js
+|   |   |           bootstrap-datepicker.sw.min.js
+|   |   |           bootstrap-datepicker.ta.min.js
+|   |   |           bootstrap-datepicker.tg.min.js
+|   |   |           bootstrap-datepicker.th.min.js
+|   |   |           bootstrap-datepicker.tk.min.js
+|   |   |           bootstrap-datepicker.tr.min.js
+|   |   |           bootstrap-datepicker.uk.min.js
+|   |   |           bootstrap-datepicker.uz-cyrl.min.js
+|   |   |           bootstrap-datepicker.uz-latn.min.js
+|   |   |           bootstrap-datepicker.vi.min.js
+|   |   |           bootstrap-datepicker.zh-CN.min.js
+|   |   |           bootstrap-datepicker.zh-TW.min.js
+|   |   |           
+|   |   +---js
+|   |   |   |   bootstrap-datepicker.js
+|   |   |   |   
+|   |   |   \---locales
+|   |   |           bootstrap-datepicker-en-CA.js
+|   |   |           bootstrap-datepicker.ar-DZ.js
+|   |   |           bootstrap-datepicker.ar-tn.js
+|   |   |           bootstrap-datepicker.ar.js
+|   |   |           bootstrap-datepicker.az.js
+|   |   |           bootstrap-datepicker.bg.js
+|   |   |           bootstrap-datepicker.bm.js
+|   |   |           bootstrap-datepicker.bn.js
+|   |   |           bootstrap-datepicker.br.js
+|   |   |           bootstrap-datepicker.bs.js
+|   |   |           bootstrap-datepicker.ca.js
+|   |   |           bootstrap-datepicker.cs.js
+|   |   |           bootstrap-datepicker.cy.js
+|   |   |           bootstrap-datepicker.da.js
+|   |   |           bootstrap-datepicker.de.js
+|   |   |           bootstrap-datepicker.el.js
+|   |   |           bootstrap-datepicker.en-AU.js
+|   |   |           bootstrap-datepicker.en-CA.js
+|   |   |           bootstrap-datepicker.en-GB.js
+|   |   |           bootstrap-datepicker.en-IE.js
+|   |   |           bootstrap-datepicker.en-NZ.js
+|   |   |           bootstrap-datepicker.en-US.js
+|   |   |           bootstrap-datepicker.en-ZA.js
+|   |   |           bootstrap-datepicker.eo.js
+|   |   |           bootstrap-datepicker.es.js
+|   |   |           bootstrap-datepicker.et.js
+|   |   |           bootstrap-datepicker.eu.js
+|   |   |           bootstrap-datepicker.fa.js
+|   |   |           bootstrap-datepicker.fi.js
+|   |   |           bootstrap-datepicker.fo.js
+|   |   |           bootstrap-datepicker.fr-CH.js
+|   |   |           bootstrap-datepicker.fr.js
+|   |   |           bootstrap-datepicker.gl.js
+|   |   |           bootstrap-datepicker.he.js
+|   |   |           bootstrap-datepicker.hi.js
+|   |   |           bootstrap-datepicker.hr.js
+|   |   |           bootstrap-datepicker.hu.js
+|   |   |           bootstrap-datepicker.hy.js
+|   |   |           bootstrap-datepicker.id.js
+|   |   |           bootstrap-datepicker.is.js
+|   |   |           bootstrap-datepicker.it-CH.js
+|   |   |           bootstrap-datepicker.it.js
+|   |   |           bootstrap-datepicker.ja.js
+|   |   |           bootstrap-datepicker.ka.js
+|   |   |           bootstrap-datepicker.kh.js
+|   |   |           bootstrap-datepicker.kk.js
+|   |   |           bootstrap-datepicker.km.js
+|   |   |           bootstrap-datepicker.ko.js
+|   |   |           bootstrap-datepicker.kr.js
+|   |   |           bootstrap-datepicker.lt.js
+|   |   |           bootstrap-datepicker.lv.js
+|   |   |           bootstrap-datepicker.me.js
+|   |   |           bootstrap-datepicker.mk.js
+|   |   |           bootstrap-datepicker.mn.js
+|   |   |           bootstrap-datepicker.mr.js
+|   |   |           bootstrap-datepicker.ms.js
+|   |   |           bootstrap-datepicker.nl-BE.js
+|   |   |           bootstrap-datepicker.nl.js
+|   |   |           bootstrap-datepicker.no.js
+|   |   |           bootstrap-datepicker.oc.js
+|   |   |           bootstrap-datepicker.pl.js
+|   |   |           bootstrap-datepicker.pt-BR.js
+|   |   |           bootstrap-datepicker.pt.js
+|   |   |           bootstrap-datepicker.ro.js
+|   |   |           bootstrap-datepicker.rs-latin.js
+|   |   |           bootstrap-datepicker.rs.js
+|   |   |           bootstrap-datepicker.ru.js
+|   |   |           bootstrap-datepicker.si.js
+|   |   |           bootstrap-datepicker.sk.js
+|   |   |           bootstrap-datepicker.sl.js
+|   |   |           bootstrap-datepicker.sq.js
+|   |   |           bootstrap-datepicker.sr-latin.js
+|   |   |           bootstrap-datepicker.sr.js
+|   |   |           bootstrap-datepicker.sv.js
+|   |   |           bootstrap-datepicker.sw.js
+|   |   |           bootstrap-datepicker.ta.js
+|   |   |           bootstrap-datepicker.tg.js
+|   |   |           bootstrap-datepicker.th.js
+|   |   |           bootstrap-datepicker.tk.js
+|   |   |           bootstrap-datepicker.tr.js
+|   |   |           bootstrap-datepicker.uk.js
+|   |   |           bootstrap-datepicker.uz-cyrl.js
+|   |   |           bootstrap-datepicker.uz-latn.js
+|   |   |           bootstrap-datepicker.vi.js
+|   |   |           bootstrap-datepicker.zh-CN.js
+|   |   |           bootstrap-datepicker.zh-TW.js
+|   |   |           
+|   |   +---less
+|   |   |       datepicker.less
+|   |   |       datepicker3.less
+|   |   |       
+|   |   \---node_modules
+|   |       \---jquery
+|   |           |   AUTHORS.txt
+|   |           |   bower.json
+|   |           |   LICENSE.txt
+|   |           |   package.json
+|   |           |   README.md
+|   |           |   
+|   |           +---dist
+|   |           |       jquery.js
+|   |           |       jquery.min.js
+|   |           |       jquery.min.map
+|   |           |       jquery.slim.js
+|   |           |       jquery.slim.min.js
+|   |           |       jquery.slim.min.map
+|   |           |       
+|   |           \---src
+|   |               |   ajax.js
+|   |               |   attributes.js
+|   |               |   callbacks.js
+|   |               |   core.js
+|   |               |   css.js
+|   |               |   data.js
+|   |               |   deferred.js
+|   |               |   deprecated.js
+|   |               |   dimensions.js
+|   |               |   effects.js
+|   |               |   event.js
+|   |               |   jquery.js
+|   |               |   manipulation.js
+|   |               |   offset.js
+|   |               |   queue.js
+|   |               |   selector-native.js
+|   |               |   selector.js
+|   |               |   serialize.js
+|   |               |   traversing.js
+|   |               |   wrap.js
+|   |               |   
+|   |               +---ajax
+|   |               |   |   jsonp.js
+|   |               |   |   load.js
+|   |               |   |   script.js
+|   |               |   |   xhr.js
+|   |               |   |   
+|   |               |   \---var
+|   |               |           location.js
+|   |               |           nonce.js
+|   |               |           rquery.js
+|   |               |           
+|   |               +---attributes
+|   |               |       attr.js
+|   |               |       classes.js
+|   |               |       prop.js
+|   |               |       support.js
+|   |               |       val.js
+|   |               |       
+|   |               +---core
+|   |               |   |   access.js
+|   |               |   |   camelCase.js
+|   |               |   |   DOMEval.js
+|   |               |   |   init.js
+|   |               |   |   isAttached.js
+|   |               |   |   nodeName.js
+|   |               |   |   parseHTML.js
+|   |               |   |   parseXML.js
+|   |               |   |   ready-no-deferred.js
+|   |               |   |   ready.js
+|   |               |   |   readyException.js
+|   |               |   |   stripAndCollapse.js
+|   |               |   |   support.js
+|   |               |   |   toType.js
+|   |               |   |   
+|   |               |   \---var
+|   |               |           rhtml.js
+|   |               |           rsingleTag.js
+|   |               |           
+|   |               +---css
+|   |               |   |   addGetHookIf.js
+|   |               |   |   adjustCSS.js
+|   |               |   |   curCSS.js
+|   |               |   |   finalPropName.js
+|   |               |   |   hiddenVisibleSelectors.js
+|   |               |   |   showHide.js
+|   |               |   |   support.js
+|   |               |   |   
+|   |               |   \---var
+|   |               |           cssExpand.js
+|   |               |           getStyles.js
+|   |               |           isHiddenWithinTree.js
+|   |               |           rboxStyle.js
+|   |               |           rcustomProp.js
+|   |               |           rnumnonpx.js
+|   |               |           swap.js
+|   |               |           
+|   |               +---data
+|   |               |   |   Data.js
+|   |               |   |   
+|   |               |   \---var
+|   |               |           acceptData.js
+|   |               |           dataPriv.js
+|   |               |           dataUser.js
+|   |               |           
+|   |               +---deferred
+|   |               |       exceptionHook.js
+|   |               |       
+|   |               +---deprecated
+|   |               |       ajax-event-alias.js
+|   |               |       event.js
+|   |               |       
+|   |               +---effects
+|   |               |       animatedSelector.js
+|   |               |       Tween.js
+|   |               |       
+|   |               +---event
+|   |               |       trigger.js
+|   |               |       
+|   |               +---exports
+|   |               |       amd.js
+|   |               |       global.js
+|   |               |       
+|   |               +---manipulation
+|   |               |   |   buildFragment.js
+|   |               |   |   getAll.js
+|   |               |   |   setGlobalEval.js
+|   |               |   |   support.js
+|   |               |   |   wrapMap.js
+|   |               |   |   _evalUrl.js
+|   |               |   |   
+|   |               |   \---var
+|   |               |           rscriptType.js
+|   |               |           rtagName.js
+|   |               |           
+|   |               +---queue
+|   |               |       delay.js
+|   |               |       
+|   |               +---selector
+|   |               |       contains.js
+|   |               |       escapeSelector.js
+|   |               |       
+|   |               +---traversing
+|   |               |   |   findFilter.js
+|   |               |   |   
+|   |               |   \---var
+|   |               |           dir.js
+|   |               |           rneedsContext.js
+|   |               |           siblings.js
+|   |               |           
+|   |               \---var
+|   |                       arr.js
+|   |                       class2type.js
+|   |                       document.js
+|   |                       documentElement.js
+|   |                       flat.js
+|   |                       fnToString.js
+|   |                       getProto.js
+|   |                       hasOwn.js
+|   |                       indexOf.js
+|   |                       isFunction.js
+|   |                       isWindow.js
+|   |                       ObjectFunctionString.js
+|   |                       pnum.js
+|   |                       pop.js
+|   |                       push.js
+|   |                       rcheckableType.js
+|   |                       rcssNum.js
+|   |                       rnothtmlwhite.js
+|   |                       rtrimCSS.js
+|   |                       slice.js
+|   |                       sort.js
+|   |                       splice.js
+|   |                       support.js
+|   |                       toString.js
+|   |                       whitespace.js
+|   |                       
+|   +---chart.js
+|   |   |   LICENSE.md
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---auto
+|   |   |       auto.cjs
+|   |   |       auto.d.ts
+|   |   |       auto.js
+|   |   |       package.json
+|   |   |       
+|   |   +---dist
+|   |   |   |   chart.cjs
+|   |   |   |   chart.cjs.map
+|   |   |   |   chart.js
+|   |   |   |   chart.js.map
+|   |   |   |   chart.umd.js
+|   |   |   |   chart.umd.js.map
+|   |   |   |   chart.umd.min.js
+|   |   |   |   chart.umd.min.js.map
+|   |   |   |   helpers.cjs
+|   |   |   |   helpers.cjs.map
+|   |   |   |   helpers.js
+|   |   |   |   helpers.js.map
+|   |   |   |   index.d.ts
+|   |   |   |   index.umd.d.ts
+|   |   |   |   types.d.ts
+|   |   |   |   
+|   |   |   +---chunks
+|   |   |   |       helpers.dataset.cjs
+|   |   |   |       helpers.dataset.cjs.map
+|   |   |   |       helpers.dataset.js
+|   |   |   |       helpers.dataset.js.map
+|   |   |   |       
+|   |   |   +---controllers
+|   |   |   |       controller.bar.d.ts
+|   |   |   |       controller.bubble.d.ts
+|   |   |   |       controller.doughnut.d.ts
+|   |   |   |       controller.line.d.ts
+|   |   |   |       controller.pie.d.ts
+|   |   |   |       controller.polarArea.d.ts
+|   |   |   |       controller.radar.d.ts
+|   |   |   |       controller.scatter.d.ts
+|   |   |   |       index.d.ts
+|   |   |   |       
+|   |   |   +---core
+|   |   |   |       core.adapters.d.ts
+|   |   |   |       core.animation.d.ts
+|   |   |   |       core.animations.d.ts
+|   |   |   |       core.animations.defaults.d.ts
+|   |   |   |       core.animator.d.ts
+|   |   |   |       core.config.d.ts
+|   |   |   |       core.controller.d.ts
+|   |   |   |       core.datasetController.d.ts
+|   |   |   |       core.defaults.d.ts
+|   |   |   |       core.element.d.ts
+|   |   |   |       core.interaction.d.ts
+|   |   |   |       core.layouts.d.ts
+|   |   |   |       core.layouts.defaults.d.ts
+|   |   |   |       core.plugins.d.ts
+|   |   |   |       core.registry.d.ts
+|   |   |   |       core.scale.autoskip.d.ts
+|   |   |   |       core.scale.d.ts
+|   |   |   |       core.scale.defaults.d.ts
+|   |   |   |       core.ticks.d.ts
+|   |   |   |       core.typedRegistry.d.ts
+|   |   |   |       index.d.ts
+|   |   |   |       
+|   |   |   +---elements
+|   |   |   |       element.arc.d.ts
+|   |   |   |       element.bar.d.ts
+|   |   |   |       element.line.d.ts
+|   |   |   |       element.point.d.ts
+|   |   |   |       index.d.ts
+|   |   |   |       
+|   |   |   +---helpers
+|   |   |   |       helpers.canvas.d.ts
+|   |   |   |       helpers.collection.d.ts
+|   |   |   |       helpers.color.d.ts
+|   |   |   |       helpers.config.d.ts
+|   |   |   |       helpers.config.types.d.ts
+|   |   |   |       helpers.core.d.ts
+|   |   |   |       helpers.curve.d.ts
+|   |   |   |       helpers.dataset.d.ts
+|   |   |   |       helpers.dom.d.ts
+|   |   |   |       helpers.easing.d.ts
+|   |   |   |       helpers.extras.d.ts
+|   |   |   |       helpers.interpolation.d.ts
+|   |   |   |       helpers.intl.d.ts
+|   |   |   |       helpers.math.d.ts
+|   |   |   |       helpers.options.d.ts
+|   |   |   |       helpers.rtl.d.ts
+|   |   |   |       helpers.segment.d.ts
+|   |   |   |       index.d.ts
+|   |   |   |       
+|   |   |   +---platform
+|   |   |   |       index.d.ts
+|   |   |   |       platform.base.d.ts
+|   |   |   |       platform.basic.d.ts
+|   |   |   |       platform.dom.d.ts
+|   |   |   |       
+|   |   |   +---plugins
+|   |   |   |   |   index.d.ts
+|   |   |   |   |   plugin.colors.d.ts
+|   |   |   |   |   plugin.decimation.d.ts
+|   |   |   |   |   plugin.legend.d.ts
+|   |   |   |   |   plugin.subtitle.d.ts
+|   |   |   |   |   plugin.title.d.ts
+|   |   |   |   |   plugin.tooltip.d.ts
+|   |   |   |   |   
+|   |   |   |   \---plugin.filler
+|   |   |   |           filler.drawing.d.ts
+|   |   |   |           filler.helper.d.ts
+|   |   |   |           filler.options.d.ts
+|   |   |   |           filler.segment.d.ts
+|   |   |   |           filler.target.d.ts
+|   |   |   |           filler.target.stack.d.ts
+|   |   |   |           index.d.ts
+|   |   |   |           simpleArc.d.ts
+|   |   |   |           
+|   |   |   +---scales
+|   |   |   |       index.d.ts
+|   |   |   |       scale.category.d.ts
+|   |   |   |       scale.linear.d.ts
+|   |   |   |       scale.linearbase.d.ts
+|   |   |   |       scale.logarithmic.d.ts
+|   |   |   |       scale.radialLinear.d.ts
+|   |   |   |       scale.time.d.ts
+|   |   |   |       scale.timeseries.d.ts
+|   |   |   |       
+|   |   |   \---types
+|   |   |           animation.d.ts
+|   |   |           basic.d.ts
+|   |   |           color.d.ts
+|   |   |           geometric.d.ts
+|   |   |           index.d.ts
+|   |   |           layout.d.ts
+|   |   |           utils.d.ts
+|   |   |           
+|   |   \---helpers
+|   |           helpers.cjs
+|   |           helpers.d.ts
+|   |           helpers.js
+|   |           package.json
+|   |           
+|   +---daterangepicker
+|   |   |   bower.json
+|   |   |   daterangepicker.css
+|   |   |   daterangepicker.js
+|   |   |   demo.html
+|   |   |   drp.png
+|   |   |   index.html
+|   |   |   moment.min.js
+|   |   |   package.js
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   test.html
+|   |   |   website.css
+|   |   |   website.js
+|   |   |   
+|   |   +---example
+|   |   |   +---amd
+|   |   |   |       index.html
+|   |   |   |       main.js
+|   |   |   |       require.js
+|   |   |   |       
+|   |   |   \---browserify
+|   |   |           bundle.js
+|   |   |           index.html
+|   |   |           main.js
+|   |   |           README.md
+|   |   |           
+|   |   \---website
+|   |           index.html
+|   |           website.css
+|   |           website.js
+|   |           
+|   +---dompurify
+|   |   |   LICENSE
+|   |   |   LICENSE-MPL
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---dist
+|   |   |       purify.cjs.d.ts
+|   |   |       purify.cjs.js
+|   |   |       purify.cjs.js.map
+|   |   |       purify.cov.cjs.js
+|   |   |       purify.cov.cjs.js.map
+|   |   |       purify.es.d.mts
+|   |   |       purify.es.mjs
+|   |   |       purify.es.mjs.map
+|   |   |       purify.js
+|   |   |       purify.js.map
+|   |   |       purify.min.js
+|   |   |       purify.min.js.map
+|   |   |       
+|   |   \---src
+|   |           attrs.ts
+|   |           config.ts
+|   |           license_header
+|   |           purify.ts
+|   |           regexp.ts
+|   |           tags.ts
+|   |           types.ts
+|   |           utils.ts
+|   |           
+|   +---es-module-lexer
+|   |   |   lexer.js
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---dist
+|   |   |       lexer.asm.js
+|   |   |       lexer.cjs
+|   |   |       lexer.js
+|   |   |       
+|   |   \---types
+|   |           lexer.d.ts
+|   |           
+|   +---esbuild
+|   |   |   install.js
+|   |   |   LICENSE.md
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---bin
+|   |   |       esbuild
+|   |   |       
+|   |   \---lib
+|   |           main.d.ts
+|   |           main.js
+|   |           
+|   +---fdir
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   \---dist
+|   |           index.cjs
+|   |           index.d.cts
+|   |           index.d.mts
+|   |           index.mjs
+|   |           
+|   +---flatpickr
+|   |   |   LICENSE.md
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---dist
+|   |   |   |   flatpickr.css
+|   |   |   |   flatpickr.js
+|   |   |   |   flatpickr.min.css
+|   |   |   |   flatpickr.min.js
+|   |   |   |   ie.css
+|   |   |   |   typings.d.ts
+|   |   |   |   
+|   |   |   +---esm
+|   |   |   |   |   index.js
+|   |   |   |   |   
+|   |   |   |   +---l10n
+|   |   |   |   |       ar-dz.js
+|   |   |   |   |       ar.js
+|   |   |   |   |       at.js
+|   |   |   |   |       az.js
+|   |   |   |   |       be.js
+|   |   |   |   |       bg.js
+|   |   |   |   |       bn.js
+|   |   |   |   |       bs.js
+|   |   |   |   |       cat.js
+|   |   |   |   |       ckb.js
+|   |   |   |   |       cs.js
+|   |   |   |   |       cy.js
+|   |   |   |   |       da.js
+|   |   |   |   |       de.js
+|   |   |   |   |       default.js
+|   |   |   |   |       eo.js
+|   |   |   |   |       es.js
+|   |   |   |   |       et.js
+|   |   |   |   |       fa.js
+|   |   |   |   |       fi.js
+|   |   |   |   |       fo.js
+|   |   |   |   |       fr.js
+|   |   |   |   |       ga.js
+|   |   |   |   |       gr.js
+|   |   |   |   |       he.js
+|   |   |   |   |       hi.js
+|   |   |   |   |       hr.js
+|   |   |   |   |       hu.js
+|   |   |   |   |       hy.js
+|   |   |   |   |       id.js
+|   |   |   |   |       index.js
+|   |   |   |   |       is.js
+|   |   |   |   |       it.js
+|   |   |   |   |       ja.js
+|   |   |   |   |       ka.js
+|   |   |   |   |       km.js
+|   |   |   |   |       ko.js
+|   |   |   |   |       kz.js
+|   |   |   |   |       lt.js
+|   |   |   |   |       lv.js
+|   |   |   |   |       mk.js
+|   |   |   |   |       mn.js
+|   |   |   |   |       ms.js
+|   |   |   |   |       my.js
+|   |   |   |   |       nl.js
+|   |   |   |   |       nn.js
+|   |   |   |   |       no.js
+|   |   |   |   |       pa.js
+|   |   |   |   |       pl.js
+|   |   |   |   |       pt.js
+|   |   |   |   |       ro.js
+|   |   |   |   |       ru.js
+|   |   |   |   |       si.js
+|   |   |   |   |       sk.js
+|   |   |   |   |       sl.js
+|   |   |   |   |       sq.js
+|   |   |   |   |       sr-cyr.js
+|   |   |   |   |       sr.js
+|   |   |   |   |       sv.js
+|   |   |   |   |       th.js
+|   |   |   |   |       tr.js
+|   |   |   |   |       uk.js
+|   |   |   |   |       uz.js
+|   |   |   |   |       uz_latn.js
+|   |   |   |   |       vn.js
+|   |   |   |   |       zh-tw.js
+|   |   |   |   |       zh.js
+|   |   |   |   |       
+|   |   |   |   +---plugins
+|   |   |   |   |   |   minMaxTimePlugin.js
+|   |   |   |   |   |   momentPlugin.js
+|   |   |   |   |   |   rangePlugin.js
+|   |   |   |   |   |   scrollPlugin.js
+|   |   |   |   |   |   
+|   |   |   |   |   +---confirmDate
+|   |   |   |   |   |       confirmDate.js
+|   |   |   |   |   |       
+|   |   |   |   |   +---labelPlugin
+|   |   |   |   |   |       labelPlugin.js
+|   |   |   |   |   |       
+|   |   |   |   |   +---monthSelect
+|   |   |   |   |   |       index.js
+|   |   |   |   |   |       
+|   |   |   |   |   \---weekSelect
+|   |   |   |   |           weekSelect.js
+|   |   |   |   |           
+|   |   |   |   +---types
+|   |   |   |   |       globals.js
+|   |   |   |   |       instance.js
+|   |   |   |   |       locale.js
+|   |   |   |   |       options.js
+|   |   |   |   |       
+|   |   |   |   \---utils
+|   |   |   |           dates.js
+|   |   |   |           dom.js
+|   |   |   |           formatting.js
+|   |   |   |           index.js
+|   |   |   |           polyfills.js
+|   |   |   |           
+|   |   |   +---l10n
+|   |   |   |       ar-dz.d.ts
+|   |   |   |       ar-dz.js
+|   |   |   |       ar.d.ts
+|   |   |   |       ar.js
+|   |   |   |       at.d.ts
+|   |   |   |       at.js
+|   |   |   |       az.d.ts
+|   |   |   |       az.js
+|   |   |   |       be.d.ts
+|   |   |   |       be.js
+|   |   |   |       bg.d.ts
+|   |   |   |       bg.js
+|   |   |   |       bn.d.ts
+|   |   |   |       bn.js
+|   |   |   |       bs.d.ts
+|   |   |   |       bs.js
+|   |   |   |       cat.d.ts
+|   |   |   |       cat.js
+|   |   |   |       ckb.d.ts
+|   |   |   |       ckb.js
+|   |   |   |       cs.d.ts
+|   |   |   |       cs.js
+|   |   |   |       cy.d.ts
+|   |   |   |       cy.js
+|   |   |   |       da.d.ts
+|   |   |   |       da.js
+|   |   |   |       de.d.ts
+|   |   |   |       de.js
+|   |   |   |       default.d.ts
+|   |   |   |       default.js
+|   |   |   |       eo.d.ts
+|   |   |   |       eo.js
+|   |   |   |       es.d.ts
+|   |   |   |       es.js
+|   |   |   |       et.d.ts
+|   |   |   |       et.js
+|   |   |   |       fa.d.ts
+|   |   |   |       fa.js
+|   |   |   |       fi.d.ts
+|   |   |   |       fi.js
+|   |   |   |       fo.d.ts
+|   |   |   |       fo.js
+|   |   |   |       fr.d.ts
+|   |   |   |       fr.js
+|   |   |   |       ga.d.ts
+|   |   |   |       ga.js
+|   |   |   |       gr.d.ts
+|   |   |   |       gr.js
+|   |   |   |       he.d.ts
+|   |   |   |       he.js
+|   |   |   |       hi.d.ts
+|   |   |   |       hi.js
+|   |   |   |       hr.d.ts
+|   |   |   |       hr.js
+|   |   |   |       hu.d.ts
+|   |   |   |       hu.js
+|   |   |   |       hy.d.ts
+|   |   |   |       hy.js
+|   |   |   |       id.d.ts
+|   |   |   |       id.js
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       is.d.ts
+|   |   |   |       is.js
+|   |   |   |       it.d.ts
+|   |   |   |       it.js
+|   |   |   |       ja.d.ts
+|   |   |   |       ja.js
+|   |   |   |       ka.d.ts
+|   |   |   |       ka.js
+|   |   |   |       km.d.ts
+|   |   |   |       km.js
+|   |   |   |       ko.d.ts
+|   |   |   |       ko.js
+|   |   |   |       kz.d.ts
+|   |   |   |       kz.js
+|   |   |   |       lt.d.ts
+|   |   |   |       lt.js
+|   |   |   |       lv.d.ts
+|   |   |   |       lv.js
+|   |   |   |       mk.d.ts
+|   |   |   |       mk.js
+|   |   |   |       mn.d.ts
+|   |   |   |       mn.js
+|   |   |   |       ms.d.ts
+|   |   |   |       ms.js
+|   |   |   |       my.d.ts
+|   |   |   |       my.js
+|   |   |   |       nl.d.ts
+|   |   |   |       nl.js
+|   |   |   |       nn.d.ts
+|   |   |   |       nn.js
+|   |   |   |       no.d.ts
+|   |   |   |       no.js
+|   |   |   |       pa.d.ts
+|   |   |   |       pa.js
+|   |   |   |       pl.d.ts
+|   |   |   |       pl.js
+|   |   |   |       pt.d.ts
+|   |   |   |       pt.js
+|   |   |   |       ro.d.ts
+|   |   |   |       ro.js
+|   |   |   |       ru.d.ts
+|   |   |   |       ru.js
+|   |   |   |       si.d.ts
+|   |   |   |       si.js
+|   |   |   |       sk.d.ts
+|   |   |   |       sk.js
+|   |   |   |       sl.d.ts
+|   |   |   |       sl.js
+|   |   |   |       sq.d.ts
+|   |   |   |       sq.js
+|   |   |   |       sr-cyr.d.ts
+|   |   |   |       sr-cyr.js
+|   |   |   |       sr.d.ts
+|   |   |   |       sr.js
+|   |   |   |       sv.d.ts
+|   |   |   |       sv.js
+|   |   |   |       th.d.ts
+|   |   |   |       th.js
+|   |   |   |       tr.d.ts
+|   |   |   |       tr.js
+|   |   |   |       uk.d.ts
+|   |   |   |       uk.js
+|   |   |   |       uz.d.ts
+|   |   |   |       uz.js
+|   |   |   |       uz_latn.d.ts
+|   |   |   |       uz_latn.js
+|   |   |   |       vn.d.ts
+|   |   |   |       vn.js
+|   |   |   |       zh-tw.d.ts
+|   |   |   |       zh-tw.js
+|   |   |   |       zh.d.ts
+|   |   |   |       zh.js
+|   |   |   |       
+|   |   |   +---plugins
+|   |   |   |   |   minMaxTimePlugin.d.ts
+|   |   |   |   |   minMaxTimePlugin.js
+|   |   |   |   |   momentPlugin.d.ts
+|   |   |   |   |   momentPlugin.js
+|   |   |   |   |   rangePlugin.d.ts
+|   |   |   |   |   rangePlugin.js
+|   |   |   |   |   scrollPlugin.d.ts
+|   |   |   |   |   scrollPlugin.js
+|   |   |   |   |   
+|   |   |   |   +---confirmDate
+|   |   |   |   |       confirmDate.css
+|   |   |   |   |       confirmDate.d.ts
+|   |   |   |   |       confirmDate.js
+|   |   |   |   |       
+|   |   |   |   +---labelPlugin
+|   |   |   |   |       labelPlugin.d.ts
+|   |   |   |   |       labelPlugin.js
+|   |   |   |   |       
+|   |   |   |   +---monthSelect
+|   |   |   |   |       index.d.ts
+|   |   |   |   |       index.js
+|   |   |   |   |       style.css
+|   |   |   |   |       
+|   |   |   |   \---weekSelect
+|   |   |   |           weekSelect.d.ts
+|   |   |   |           weekSelect.js
+|   |   |   |           
+|   |   |   +---themes
+|   |   |   |       airbnb.css
+|   |   |   |       confetti.css
+|   |   |   |       dark.css
+|   |   |   |       light.css
+|   |   |   |       material_blue.css
+|   |   |   |       material_green.css
+|   |   |   |       material_orange.css
+|   |   |   |       material_red.css
+|   |   |   |       
+|   |   |   +---types
+|   |   |   |       globals.d.ts
+|   |   |   |       instance.d.ts
+|   |   |   |       locale.d.ts
+|   |   |   |       options.d.ts
+|   |   |   |       
+|   |   |   \---utils
+|   |   |           dates.d.ts
+|   |   |           dom.d.ts
+|   |   |           formatting.d.ts
+|   |   |           index.d.ts
+|   |   |           
+|   |   \---src
+|   |       \---style
+|   |           |   flatpickr.styl
+|   |           |   ie.styl
+|   |           |   _vars.styl
+|   |           |   
+|   |           \---themes
+|   |                   airbnb.styl
+|   |                   confetti.styl
+|   |                   dark.styl
+|   |                   light.styl
+|   |                   material_blue.styl
+|   |                   material_green.styl
+|   |                   material_orange.styl
+|   |                   material_red.styl
+|   |                   
+|   +---jquery
+|   |   |   AUTHORS.txt
+|   |   |   bower.json
+|   |   |   changelog.md
+|   |   |   LICENSE.txt
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---dist
+|   |   |   |   jquery.factory.js
+|   |   |   |   jquery.factory.slim.js
+|   |   |   |   jquery.js
+|   |   |   |   jquery.min.js
+|   |   |   |   jquery.min.map
+|   |   |   |   jquery.slim.js
+|   |   |   |   jquery.slim.min.js
+|   |   |   |   jquery.slim.min.map
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---wrappers
+|   |   |           jquery.bundler-require-wrapper.js
+|   |   |           jquery.bundler-require-wrapper.slim.js
+|   |   |           
+|   |   +---dist-module
+|   |   |   |   jquery.factory.module.js
+|   |   |   |   jquery.factory.slim.module.js
+|   |   |   |   jquery.module.js
+|   |   |   |   jquery.module.min.js
+|   |   |   |   jquery.module.min.map
+|   |   |   |   jquery.slim.module.js
+|   |   |   |   jquery.slim.module.min.js
+|   |   |   |   jquery.slim.module.min.map
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   \---wrappers
+|   |   |           jquery.node-module-wrapper.js
+|   |   |           jquery.node-module-wrapper.slim.js
+|   |   |           
+|   |   \---src
+|   |       |   ajax.js
+|   |       |   attributes.js
+|   |       |   callbacks.js
+|   |       |   core.js
+|   |       |   css.js
+|   |       |   data.js
+|   |       |   deferred.js
+|   |       |   deprecated.js
+|   |       |   dimensions.js
+|   |       |   effects.js
+|   |       |   event.js
+|   |       |   jquery.js
+|   |       |   manipulation.js
+|   |       |   offset.js
+|   |       |   queue.js
+|   |       |   selector-native.js
+|   |       |   selector.js
+|   |       |   serialize.js
+|   |       |   traversing.js
+|   |       |   wrap.js
+|   |       |   wrapper-esm.js
+|   |       |   wrapper-factory-esm.js
+|   |       |   wrapper-factory.js
+|   |       |   
+|   |       +---ajax
+|   |       |   |   binary.js
+|   |       |   |   jsonp.js
+|   |       |   |   load.js
+|   |       |   |   script.js
+|   |       |   |   xhr.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           location.js
+|   |       |           nonce.js
+|   |       |           rquery.js
+|   |       |           
+|   |       +---attributes
+|   |       |       attr.js
+|   |       |       classes.js
+|   |       |       prop.js
+|   |       |       val.js
+|   |       |       
+|   |       +---core
+|   |       |   |   access.js
+|   |       |   |   camelCase.js
+|   |       |   |   DOMEval.js
+|   |       |   |   init.js
+|   |       |   |   isArrayLike.js
+|   |       |   |   isAttached.js
+|   |       |   |   isObviousHtml.js
+|   |       |   |   nodeName.js
+|   |       |   |   parseHTML.js
+|   |       |   |   parseXML.js
+|   |       |   |   ready-no-deferred.js
+|   |       |   |   ready.js
+|   |       |   |   readyException.js
+|   |       |   |   stripAndCollapse.js
+|   |       |   |   toType.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           rsingleTag.js
+|   |       |           
+|   |       +---css
+|   |       |   |   adjustCSS.js
+|   |       |   |   cssCamelCase.js
+|   |       |   |   curCSS.js
+|   |       |   |   finalPropName.js
+|   |       |   |   hiddenVisibleSelectors.js
+|   |       |   |   isAutoPx.js
+|   |       |   |   showHide.js
+|   |       |   |   support.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           cssExpand.js
+|   |       |           getStyles.js
+|   |       |           isHiddenWithinTree.js
+|   |       |           rcustomProp.js
+|   |       |           rnumnonpx.js
+|   |       |           swap.js
+|   |       |           
+|   |       +---data
+|   |       |   |   Data.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           acceptData.js
+|   |       |           dataPriv.js
+|   |       |           dataUser.js
+|   |       |           
+|   |       +---deferred
+|   |       |       exceptionHook.js
+|   |       |       
+|   |       +---deprecated
+|   |       |       ajax-event-alias.js
+|   |       |       event.js
+|   |       |       
+|   |       +---effects
+|   |       |       animatedSelector.js
+|   |       |       Tween.js
+|   |       |       
+|   |       +---event
+|   |       |       trigger.js
+|   |       |       
+|   |       +---exports
+|   |       |       amd.js
+|   |       |       global.js
+|   |       |       
+|   |       +---manipulation
+|   |       |   |   buildFragment.js
+|   |       |   |   domManip.js
+|   |       |   |   getAll.js
+|   |       |   |   setGlobalEval.js
+|   |       |   |   wrapMap.js
+|   |       |   |   _evalUrl.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           rscriptType.js
+|   |       |           rtagName.js
+|   |       |           
+|   |       +---queue
+|   |       |       delay.js
+|   |       |       
+|   |       +---selector
+|   |       |   |   createCache.js
+|   |       |   |   escapeSelector.js
+|   |       |   |   filterMatchExpr.js
+|   |       |   |   preFilter.js
+|   |       |   |   rbuggyQSA.js
+|   |       |   |   selectorError.js
+|   |       |   |   testContext.js
+|   |       |   |   tokenize.js
+|   |       |   |   toSelector.js
+|   |       |   |   unescapeSelector.js
+|   |       |   |   uniqueSort.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           attributes.js
+|   |       |           identifier.js
+|   |       |           matches.js
+|   |       |           pseudos.js
+|   |       |           rcomma.js
+|   |       |           rdescend.js
+|   |       |           rleadingCombinator.js
+|   |       |           rpseudo.js
+|   |       |           rsibling.js
+|   |       |           
+|   |       +---traversing
+|   |       |   |   findFilter.js
+|   |       |   |   
+|   |       |   \---var
+|   |       |           dir.js
+|   |       |           rneedsContext.js
+|   |       |           siblings.js
+|   |       |           
+|   |       \---var
+|   |               arr.js
+|   |               class2type.js
+|   |               document.js
+|   |               documentElement.js
+|   |               flat.js
+|   |               fnToString.js
+|   |               getProto.js
+|   |               hasOwn.js
+|   |               indexOf.js
+|   |               isIE.js
+|   |               isWindow.js
+|   |               ObjectFunctionString.js
+|   |               pnum.js
+|   |               pop.js
+|   |               push.js
+|   |               rcheckableType.js
+|   |               rcssNum.js
+|   |               rnothtmlwhite.js
+|   |               rtrimCSS.js
+|   |               slice.js
+|   |               sort.js
+|   |               splice.js
+|   |               support.js
+|   |               toString.js
+|   |               whitespace.js
+|   |               
+|   +---jquery-knob
+|   |   |   .npmignore
+|   |   |   bower.json
+|   |   |   excanvas.js
+|   |   |   index.html
+|   |   |   knob.jquery.json
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   secretplan.jpg
+|   |   |   
+|   |   +---dist
+|   |   |       jquery.knob.min.js
+|   |   |       
+|   |   \---js
+|   |           jquery.knob.js
+|   |           
+|   +---jquery-sparkline
+|   |   |   .npmignore
+|   |   |   build.js
+|   |   |   Changelog.txt
+|   |   |   jquery.sparkline.js
+|   |   |   jquery.sparkline.min.js
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   \---src
+|   |           base.js
+|   |           chart-bar.js
+|   |           chart-box.js
+|   |           chart-bullet.js
+|   |           chart-discrete.js
+|   |           chart-line.js
+|   |           chart-pie.js
+|   |           chart-tristate.js
+|   |           defaults.js
+|   |           footer.js
+|   |           header.js
+|   |           interact.js
+|   |           rangemap.js
+|   |           simpledraw.js
+|   |           utils.js
+|   |           vcanvas-base.js
+|   |           vcanvas-canvas.js
+|   |           vcanvas-vml.js
+|   |           
+|   +---jvectormap-content
+|   |   |   africa-merc.js
+|   |   |   africa-mill.js
+|   |   |   ar-merc.js
+|   |   |   ar-mill.js
+|   |   |   asia-merc.js
+|   |   |   asia-mill.js
+|   |   |   at-merc.js
+|   |   |   at-mill.js
+|   |   |   au-merc.js
+|   |   |   au-mill.js
+|   |   |   be-merc.js
+|   |   |   be-mill.js
+|   |   |   ca-lcc.js
+|   |   |   ca-merc.js
+|   |   |   ca-mill.js
+|   |   |   ch-merc.js
+|   |   |   ch-mill.js
+|   |   |   cn-merc.js
+|   |   |   cn-mill.js
+|   |   |   co-merc.js
+|   |   |   co-mill.js
+|   |   |   continents-merc.js
+|   |   |   continents-mill.js
+|   |   |   de-merc.js
+|   |   |   de-mill.js
+|   |   |   dk-merc.js
+|   |   |   dk-mill.js
+|   |   |   es-merc.js
+|   |   |   es-mill.js
+|   |   |   europe-merc.js
+|   |   |   europe-mill.js
+|   |   |   fr-merc.js
+|   |   |   fr-mill.js
+|   |   |   fr_regions-merc.js
+|   |   |   fr_regions-mill.js
+|   |   |   fr_regions_2016-merc.js
+|   |   |   fr_regions_2016-mill.js
+|   |   |   in-merc.js
+|   |   |   in-mill.js
+|   |   |   it-merc.js
+|   |   |   it-mill.js
+|   |   |   it_regions-merc.js
+|   |   |   it_regions-mill.js
+|   |   |   kr-merc.js
+|   |   |   kr-mill.js
+|   |   |   nl-merc.js
+|   |   |   nl-mill.js
+|   |   |   no-merc.js
+|   |   |   no-mill.js
+|   |   |   north_america-merc.js
+|   |   |   north_america-mill.js
+|   |   |   nz-merc.js
+|   |   |   nz-mill.js
+|   |   |   oceania-merc.js
+|   |   |   oceania-mill.js
+|   |   |   package.json
+|   |   |   pl-merc.js
+|   |   |   pl-mill.js
+|   |   |   pt-merc.js
+|   |   |   pt-mill.js
+|   |   |   ru-merc.js
+|   |   |   ru-mill.js
+|   |   |   ru_fd-merc.js
+|   |   |   ru_fd-mill.js
+|   |   |   se-merc.js
+|   |   |   se-mill.js
+|   |   |   south_america-merc.js
+|   |   |   south_america-mill.js
+|   |   |   th-merc.js
+|   |   |   th-mill.js
+|   |   |   uk_countries-merc.js
+|   |   |   uk_countries-mill.js
+|   |   |   uk_regions-merc.js
+|   |   |   uk_regions-mill.js
+|   |   |   us-aea.js
+|   |   |   us-il-chicago-merc.js
+|   |   |   us-il-chicago-mill.js
+|   |   |   us-lcc.js
+|   |   |   us-merc.js
+|   |   |   us-mill.js
+|   |   |   us-ny-newyork-merc.js
+|   |   |   us-ny-newyork-mill.js
+|   |   |   ve-merc.js
+|   |   |   ve-mill.js
+|   |   |   world-merc.js
+|   |   |   world-mill.js
+|   |   |   za-merc.js
+|   |   |   za-mill.js
+|   |   |   
+|   |   \---esm
+|   |           africa-merc.js
+|   |           africa-mill.js
+|   |           ar-merc.js
+|   |           ar-mill.js
+|   |           asia-merc.js
+|   |           asia-mill.js
+|   |           at-merc.js
+|   |           at-mill.js
+|   |           au-merc.js
+|   |           au-mill.js
+|   |           be-merc.js
+|   |           be-mill.js
+|   |           ca-lcc.js
+|   |           ca-merc.js
+|   |           ca-mill.js
+|   |           ch-merc.js
+|   |           ch-mill.js
+|   |           cn-merc.js
+|   |           cn-mill.js
+|   |           co-merc.js
+|   |           co-mill.js
+|   |           continents-merc.js
+|   |           continents-mill.js
+|   |           de-merc.js
+|   |           de-mill.js
+|   |           dk-merc.js
+|   |           dk-mill.js
+|   |           es-merc.js
+|   |           es-mill.js
+|   |           europe-merc.js
+|   |           europe-mill.js
+|   |           fr-merc.js
+|   |           fr-mill.js
+|   |           fr_regions-merc.js
+|   |           fr_regions-mill.js
+|   |           fr_regions_2016-merc.js
+|   |           fr_regions_2016-mill.js
+|   |           in-merc.js
+|   |           in-mill.js
+|   |           it-merc.js
+|   |           it-mill.js
+|   |           it_regions-merc.js
+|   |           it_regions-mill.js
+|   |           kr-merc.js
+|   |           kr-mill.js
+|   |           nl-merc.js
+|   |           nl-mill.js
+|   |           no-merc.js
+|   |           no-mill.js
+|   |           north_america-merc.js
+|   |           north_america-mill.js
+|   |           nz-merc.js
+|   |           nz-mill.js
+|   |           oceania-merc.js
+|   |           oceania-mill.js
+|   |           package.json
+|   |           pl-merc.js
+|   |           pl-mill.js
+|   |           pt-merc.js
+|   |           pt-mill.js
+|   |           ru-merc.js
+|   |           ru-mill.js
+|   |           ru_fd-merc.js
+|   |           ru_fd-mill.js
+|   |           se-merc.js
+|   |           se-mill.js
+|   |           south_america-merc.js
+|   |           south_america-mill.js
+|   |           th-merc.js
+|   |           th-mill.js
+|   |           uk_countries-merc.js
+|   |           uk_countries-mill.js
+|   |           uk_regions-merc.js
+|   |           uk_regions-mill.js
+|   |           us-aea.js
+|   |           us-il-chicago-merc.js
+|   |           us-il-chicago-mill.js
+|   |           us-lcc.js
+|   |           us-merc.js
+|   |           us-mill.js
+|   |           us-ny-newyork-merc.js
+|   |           us-ny-newyork-mill.js
+|   |           ve-merc.js
+|   |           ve-mill.js
+|   |           world-merc.js
+|   |           world-mill.js
+|   |           za-merc.js
+|   |           za-mill.js
+|   |           
+|   +---jvectormap-next
+|   |       index.cjs.js
+|   |       index.esm.js
+|   |       jquery-jvectormap.css
+|   |       jquery-jvectormap.js
+|   |       jquery-jvectormap.min.js
+|   |       jquery-jvectormap.min.js.map
+|   |       LICENSE-AGPL
+|   |       LICENSE-COMMERCIAL
+|   |       package.json
+|   |       README.md
+|   |       
+|   +---moment
+|   |   |   CHANGELOG.md
+|   |   |   ender.js
+|   |   |   LICENSE
+|   |   |   moment.d.ts
+|   |   |   moment.js
+|   |   |   package.js
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---dist
+|   |   |   |   moment.js
+|   |   |   |   
+|   |   |   \---locale
+|   |   |           af.js
+|   |   |           ar-dz.js
+|   |   |           ar-kw.js
+|   |   |           ar-ly.js
+|   |   |           ar-ma.js
+|   |   |           ar-ps.js
+|   |   |           ar-sa.js
+|   |   |           ar-tn.js
+|   |   |           ar.js
+|   |   |           az.js
+|   |   |           be.js
+|   |   |           bg.js
+|   |   |           bm.js
+|   |   |           bn-bd.js
+|   |   |           bn.js
+|   |   |           bo.js
+|   |   |           br.js
+|   |   |           bs.js
+|   |   |           ca.js
+|   |   |           cs.js
+|   |   |           cv.js
+|   |   |           cy.js
+|   |   |           da.js
+|   |   |           de-at.js
+|   |   |           de-ch.js
+|   |   |           de.js
+|   |   |           dv.js
+|   |   |           el.js
+|   |   |           en-au.js
+|   |   |           en-ca.js
+|   |   |           en-gb.js
+|   |   |           en-ie.js
+|   |   |           en-il.js
+|   |   |           en-in.js
+|   |   |           en-nz.js
+|   |   |           en-sg.js
+|   |   |           eo.js
+|   |   |           es-do.js
+|   |   |           es-mx.js
+|   |   |           es-us.js
+|   |   |           es.js
+|   |   |           et.js
+|   |   |           eu.js
+|   |   |           fa.js
+|   |   |           fi.js
+|   |   |           fil.js
+|   |   |           fo.js
+|   |   |           fr-ca.js
+|   |   |           fr-ch.js
+|   |   |           fr.js
+|   |   |           fy.js
+|   |   |           ga.js
+|   |   |           gd.js
+|   |   |           gl.js
+|   |   |           gom-deva.js
+|   |   |           gom-latn.js
+|   |   |           gu.js
+|   |   |           he.js
+|   |   |           hi.js
+|   |   |           hr.js
+|   |   |           hu.js
+|   |   |           hy-am.js
+|   |   |           id.js
+|   |   |           is.js
+|   |   |           it-ch.js
+|   |   |           it.js
+|   |   |           ja.js
+|   |   |           jv.js
+|   |   |           ka.js
+|   |   |           kk.js
+|   |   |           km.js
+|   |   |           kn.js
+|   |   |           ko.js
+|   |   |           ku-kmr.js
+|   |   |           ku.js
+|   |   |           ky.js
+|   |   |           lb.js
+|   |   |           lo.js
+|   |   |           lt.js
+|   |   |           lv.js
+|   |   |           me.js
+|   |   |           mi.js
+|   |   |           mk.js
+|   |   |           ml.js
+|   |   |           mn.js
+|   |   |           mr.js
+|   |   |           ms-my.js
+|   |   |           ms.js
+|   |   |           mt.js
+|   |   |           my.js
+|   |   |           nb.js
+|   |   |           ne.js
+|   |   |           nl-be.js
+|   |   |           nl.js
+|   |   |           nn.js
+|   |   |           oc-lnc.js
+|   |   |           pa-in.js
+|   |   |           pl.js
+|   |   |           pt-br.js
+|   |   |           pt.js
+|   |   |           ro.js
+|   |   |           ru.js
+|   |   |           sd.js
+|   |   |           se.js
+|   |   |           si.js
+|   |   |           sk.js
+|   |   |           sl.js
+|   |   |           sq.js
+|   |   |           sr-cyrl.js
+|   |   |           sr.js
+|   |   |           ss.js
+|   |   |           sv.js
+|   |   |           sw.js
+|   |   |           ta.js
+|   |   |           te.js
+|   |   |           tet.js
+|   |   |           tg.js
+|   |   |           th.js
+|   |   |           tk.js
+|   |   |           tl-ph.js
+|   |   |           tlh.js
+|   |   |           tr.js
+|   |   |           tzl.js
+|   |   |           tzm-latn.js
+|   |   |           tzm.js
+|   |   |           ug-cn.js
+|   |   |           uk.js
+|   |   |           ur.js
+|   |   |           uz-latn.js
+|   |   |           uz.js
+|   |   |           vi.js
+|   |   |           x-pseudo.js
+|   |   |           yo.js
+|   |   |           zh-cn.js
+|   |   |           zh-hk.js
+|   |   |           zh-mo.js
+|   |   |           zh-tw.js
+|   |   |           
+|   |   +---locale
+|   |   |       af.js
+|   |   |       ar-dz.js
+|   |   |       ar-kw.js
+|   |   |       ar-ly.js
+|   |   |       ar-ma.js
+|   |   |       ar-ps.js
+|   |   |       ar-sa.js
+|   |   |       ar-tn.js
+|   |   |       ar.js
+|   |   |       az.js
+|   |   |       be.js
+|   |   |       bg.js
+|   |   |       bm.js
+|   |   |       bn-bd.js
+|   |   |       bn.js
+|   |   |       bo.js
+|   |   |       br.js
+|   |   |       bs.js
+|   |   |       ca.js
+|   |   |       cs.js
+|   |   |       cv.js
+|   |   |       cy.js
+|   |   |       da.js
+|   |   |       de-at.js
+|   |   |       de-ch.js
+|   |   |       de.js
+|   |   |       dv.js
+|   |   |       el.js
+|   |   |       en-au.js
+|   |   |       en-ca.js
+|   |   |       en-gb.js
+|   |   |       en-ie.js
+|   |   |       en-il.js
+|   |   |       en-in.js
+|   |   |       en-nz.js
+|   |   |       en-sg.js
+|   |   |       eo.js
+|   |   |       es-do.js
+|   |   |       es-mx.js
+|   |   |       es-us.js
+|   |   |       es.js
+|   |   |       et.js
+|   |   |       eu.js
+|   |   |       fa.js
+|   |   |       fi.js
+|   |   |       fil.js
+|   |   |       fo.js
+|   |   |       fr-ca.js
+|   |   |       fr-ch.js
+|   |   |       fr.js
+|   |   |       fy.js
+|   |   |       ga.js
+|   |   |       gd.js
+|   |   |       gl.js
+|   |   |       gom-deva.js
+|   |   |       gom-latn.js
+|   |   |       gu.js
+|   |   |       he.js
+|   |   |       hi.js
+|   |   |       hr.js
+|   |   |       hu.js
+|   |   |       hy-am.js
+|   |   |       id.js
+|   |   |       is.js
+|   |   |       it-ch.js
+|   |   |       it.js
+|   |   |       ja.js
+|   |   |       jv.js
+|   |   |       ka.js
+|   |   |       kk.js
+|   |   |       km.js
+|   |   |       kn.js
+|   |   |       ko.js
+|   |   |       ku-kmr.js
+|   |   |       ku.js
+|   |   |       ky.js
+|   |   |       lb.js
+|   |   |       lo.js
+|   |   |       lt.js
+|   |   |       lv.js
+|   |   |       me.js
+|   |   |       mi.js
+|   |   |       mk.js
+|   |   |       ml.js
+|   |   |       mn.js
+|   |   |       mr.js
+|   |   |       ms-my.js
+|   |   |       ms.js
+|   |   |       mt.js
+|   |   |       my.js
+|   |   |       nb.js
+|   |   |       ne.js
+|   |   |       nl-be.js
+|   |   |       nl.js
+|   |   |       nn.js
+|   |   |       oc-lnc.js
+|   |   |       pa-in.js
+|   |   |       pl.js
+|   |   |       pt-br.js
+|   |   |       pt.js
+|   |   |       ro.js
+|   |   |       ru.js
+|   |   |       sd.js
+|   |   |       se.js
+|   |   |       si.js
+|   |   |       sk.js
+|   |   |       sl.js
+|   |   |       sq.js
+|   |   |       sr-cyrl.js
+|   |   |       sr.js
+|   |   |       ss.js
+|   |   |       sv.js
+|   |   |       sw.js
+|   |   |       ta.js
+|   |   |       te.js
+|   |   |       tet.js
+|   |   |       tg.js
+|   |   |       th.js
+|   |   |       tk.js
+|   |   |       tl-ph.js
+|   |   |       tlh.js
+|   |   |       tr.js
+|   |   |       tzl.js
+|   |   |       tzm-latn.js
+|   |   |       tzm.js
+|   |   |       ug-cn.js
+|   |   |       uk.js
+|   |   |       ur.js
+|   |   |       uz-latn.js
+|   |   |       uz.js
+|   |   |       vi.js
+|   |   |       x-pseudo.js
+|   |   |       yo.js
+|   |   |       zh-cn.js
+|   |   |       zh-hk.js
+|   |   |       zh-mo.js
+|   |   |       zh-tw.js
+|   |   |       
+|   |   +---min
+|   |   |       locales.js
+|   |   |       locales.min.js
+|   |   |       locales.min.js.map
+|   |   |       moment-with-locales.js
+|   |   |       moment-with-locales.min.js
+|   |   |       moment-with-locales.min.js.map
+|   |   |       moment.min.js
+|   |   |       moment.min.js.map
+|   |   |       
+|   |   +---src
+|   |   |   |   moment.js
+|   |   |   |   
+|   |   |   +---lib
+|   |   |   |   +---create
+|   |   |   |   |       check-overflow.js
+|   |   |   |   |       date-from-array.js
+|   |   |   |   |       from-anything.js
+|   |   |   |   |       from-array.js
+|   |   |   |   |       from-object.js
+|   |   |   |   |       from-string-and-array.js
+|   |   |   |   |       from-string-and-format.js
+|   |   |   |   |       from-string.js
+|   |   |   |   |       local.js
+|   |   |   |   |       parsing-flags.js
+|   |   |   |   |       utc.js
+|   |   |   |   |       valid.js
+|   |   |   |   |       
+|   |   |   |   +---duration
+|   |   |   |   |       abs.js
+|   |   |   |   |       add-subtract.js
+|   |   |   |   |       as.js
+|   |   |   |   |       bubble.js
+|   |   |   |   |       clone.js
+|   |   |   |   |       constructor.js
+|   |   |   |   |       create.js
+|   |   |   |   |       duration.js
+|   |   |   |   |       get.js
+|   |   |   |   |       humanize.js
+|   |   |   |   |       iso-string.js
+|   |   |   |   |       prototype.js
+|   |   |   |   |       valid.js
+|   |   |   |   |       
+|   |   |   |   +---format
+|   |   |   |   |       format.js
+|   |   |   |   |       
+|   |   |   |   +---locale
+|   |   |   |   |       base-config.js
+|   |   |   |   |       calendar.js
+|   |   |   |   |       constructor.js
+|   |   |   |   |       en.js
+|   |   |   |   |       formats.js
+|   |   |   |   |       invalid.js
+|   |   |   |   |       lists.js
+|   |   |   |   |       locale.js
+|   |   |   |   |       locales.js
+|   |   |   |   |       ordinal.js
+|   |   |   |   |       pre-post-format.js
+|   |   |   |   |       prototype.js
+|   |   |   |   |       relative.js
+|   |   |   |   |       set.js
+|   |   |   |   |       
+|   |   |   |   +---moment
+|   |   |   |   |       add-subtract.js
+|   |   |   |   |       calendar.js
+|   |   |   |   |       clone.js
+|   |   |   |   |       compare.js
+|   |   |   |   |       constructor.js
+|   |   |   |   |       creation-data.js
+|   |   |   |   |       diff.js
+|   |   |   |   |       format.js
+|   |   |   |   |       from.js
+|   |   |   |   |       get-set.js
+|   |   |   |   |       locale.js
+|   |   |   |   |       min-max.js
+|   |   |   |   |       moment.js
+|   |   |   |   |       now.js
+|   |   |   |   |       prototype.js
+|   |   |   |   |       start-end-of.js
+|   |   |   |   |       to-type.js
+|   |   |   |   |       to.js
+|   |   |   |   |       valid.js
+|   |   |   |   |       
+|   |   |   |   +---parse
+|   |   |   |   |       regex.js
+|   |   |   |   |       token.js
+|   |   |   |   |       
+|   |   |   |   +---units
+|   |   |   |   |       aliases.js
+|   |   |   |   |       constants.js
+|   |   |   |   |       day-of-month.js
+|   |   |   |   |       day-of-week.js
+|   |   |   |   |       day-of-year.js
+|   |   |   |   |       era.js
+|   |   |   |   |       hour.js
+|   |   |   |   |       millisecond.js
+|   |   |   |   |       minute.js
+|   |   |   |   |       month.js
+|   |   |   |   |       offset.js
+|   |   |   |   |       priorities.js
+|   |   |   |   |       quarter.js
+|   |   |   |   |       second.js
+|   |   |   |   |       timestamp.js
+|   |   |   |   |       timezone.js
+|   |   |   |   |       units.js
+|   |   |   |   |       week-calendar-utils.js
+|   |   |   |   |       week-year.js
+|   |   |   |   |       week.js
+|   |   |   |   |       year.js
+|   |   |   |   |       
+|   |   |   |   \---utils
+|   |   |   |           abs-ceil.js
+|   |   |   |           abs-floor.js
+|   |   |   |           abs-round.js
+|   |   |   |           compare-arrays.js
+|   |   |   |           defaults.js
+|   |   |   |           deprecate.js
+|   |   |   |           extend.js
+|   |   |   |           has-own-prop.js
+|   |   |   |           hooks.js
+|   |   |   |           index-of.js
+|   |   |   |           is-array.js
+|   |   |   |           is-calendar-spec.js
+|   |   |   |           is-date.js
+|   |   |   |           is-function.js
+|   |   |   |           is-leap-year.js
+|   |   |   |           is-moment-input.js
+|   |   |   |           is-number.js
+|   |   |   |           is-object-empty.js
+|   |   |   |           is-object.js
+|   |   |   |           is-string.js
+|   |   |   |           is-undefined.js
+|   |   |   |           keys.js
+|   |   |   |           map.js
+|   |   |   |           mod.js
+|   |   |   |           some.js
+|   |   |   |           to-int.js
+|   |   |   |           zero-fill.js
+|   |   |   |           
+|   |   |   \---locale
+|   |   |           af.js
+|   |   |           ar-dz.js
+|   |   |           ar-kw.js
+|   |   |           ar-ly.js
+|   |   |           ar-ma.js
+|   |   |           ar-ps.js
+|   |   |           ar-sa.js
+|   |   |           ar-tn.js
+|   |   |           ar.js
+|   |   |           az.js
+|   |   |           be.js
+|   |   |           bg.js
+|   |   |           bm.js
+|   |   |           bn-bd.js
+|   |   |           bn.js
+|   |   |           bo.js
+|   |   |           br.js
+|   |   |           bs.js
+|   |   |           ca.js
+|   |   |           cs.js
+|   |   |           cv.js
+|   |   |           cy.js
+|   |   |           da.js
+|   |   |           de-at.js
+|   |   |           de-ch.js
+|   |   |           de.js
+|   |   |           dv.js
+|   |   |           el.js
+|   |   |           en-au.js
+|   |   |           en-ca.js
+|   |   |           en-gb.js
+|   |   |           en-ie.js
+|   |   |           en-il.js
+|   |   |           en-in.js
+|   |   |           en-nz.js
+|   |   |           en-sg.js
+|   |   |           eo.js
+|   |   |           es-do.js
+|   |   |           es-mx.js
+|   |   |           es-us.js
+|   |   |           es.js
+|   |   |           et.js
+|   |   |           eu.js
+|   |   |           fa.js
+|   |   |           fi.js
+|   |   |           fil.js
+|   |   |           fo.js
+|   |   |           fr-ca.js
+|   |   |           fr-ch.js
+|   |   |           fr.js
+|   |   |           fy.js
+|   |   |           ga.js
+|   |   |           gd.js
+|   |   |           gl.js
+|   |   |           gom-deva.js
+|   |   |           gom-latn.js
+|   |   |           gu.js
+|   |   |           he.js
+|   |   |           hi.js
+|   |   |           hr.js
+|   |   |           hu.js
+|   |   |           hy-am.js
+|   |   |           id.js
+|   |   |           is.js
+|   |   |           it-ch.js
+|   |   |           it.js
+|   |   |           ja.js
+|   |   |           jv.js
+|   |   |           ka.js
+|   |   |           kk.js
+|   |   |           km.js
+|   |   |           kn.js
+|   |   |           ko.js
+|   |   |           ku-kmr.js
+|   |   |           ku.js
+|   |   |           ky.js
+|   |   |           lb.js
+|   |   |           lo.js
+|   |   |           lt.js
+|   |   |           lv.js
+|   |   |           me.js
+|   |   |           mi.js
+|   |   |           mk.js
+|   |   |           ml.js
+|   |   |           mn.js
+|   |   |           mr.js
+|   |   |           ms-my.js
+|   |   |           ms.js
+|   |   |           mt.js
+|   |   |           my.js
+|   |   |           nb.js
+|   |   |           ne.js
+|   |   |           nl-be.js
+|   |   |           nl.js
+|   |   |           nn.js
+|   |   |           oc-lnc.js
+|   |   |           pa-in.js
+|   |   |           pl.js
+|   |   |           pt-br.js
+|   |   |           pt.js
+|   |   |           ro.js
+|   |   |           ru.js
+|   |   |           sd.js
+|   |   |           se.js
+|   |   |           si.js
+|   |   |           sk.js
+|   |   |           sl.js
+|   |   |           sq.js
+|   |   |           sr-cyrl.js
+|   |   |           sr.js
+|   |   |           ss.js
+|   |   |           sv.js
+|   |   |           sw.js
+|   |   |           ta.js
+|   |   |           te.js
+|   |   |           tet.js
+|   |   |           tg.js
+|   |   |           th.js
+|   |   |           tk.js
+|   |   |           tl-ph.js
+|   |   |           tlh.js
+|   |   |           tr.js
+|   |   |           tzl.js
+|   |   |           tzm-latn.js
+|   |   |           tzm.js
+|   |   |           ug-cn.js
+|   |   |           uk.js
+|   |   |           ur.js
+|   |   |           uz-latn.js
+|   |   |           uz.js
+|   |   |           vi.js
+|   |   |           x-pseudo.js
+|   |   |           yo.js
+|   |   |           zh-cn.js
+|   |   |           zh-hk.js
+|   |   |           zh-mo.js
+|   |   |           zh-tw.js
+|   |   |           
+|   |   \---ts3.1-typings
+|   |           moment.d.ts
+|   |           
+|   +---picomatch
+|   |   |   index.js
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   posix.js
+|   |   |   README.md
+|   |   |   
+|   |   \---lib
+|   |           constants.js
+|   |           parse.js
+|   |           picomatch.js
+|   |           scan.js
+|   |           utils.js
+|   |           
+|   +---preact
+|   |   |   LICENSE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   
+|   |   +---compat
+|   |   |   |   client.d.ts
+|   |   |   |   client.js
+|   |   |   |   client.mjs
+|   |   |   |   jsx-dev-runtime.js
+|   |   |   |   jsx-dev-runtime.mjs
+|   |   |   |   jsx-runtime.js
+|   |   |   |   jsx-runtime.mjs
+|   |   |   |   package.json
+|   |   |   |   scheduler.js
+|   |   |   |   scheduler.mjs
+|   |   |   |   server.browser.js
+|   |   |   |   server.js
+|   |   |   |   server.mjs
+|   |   |   |   test-utils.js
+|   |   |   |   test-utils.mjs
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       compat.js
+|   |   |   |       compat.js.map
+|   |   |   |       compat.mjs
+|   |   |   |       compat.module.js
+|   |   |   |       compat.module.js.map
+|   |   |   |       compat.umd.js
+|   |   |   |       compat.umd.js.map
+|   |   |   |       
+|   |   |   \---src
+|   |   |           Children.js
+|   |   |           forwardRef.js
+|   |   |           hooks.js
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           internal.d.ts
+|   |   |           memo.js
+|   |   |           portals.js
+|   |   |           PureComponent.js
+|   |   |           render.js
+|   |   |           suspense-list.d.ts
+|   |   |           suspense-list.js
+|   |   |           suspense.d.ts
+|   |   |           suspense.js
+|   |   |           util.js
+|   |   |           
+|   |   +---debug
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       debug.js
+|   |   |   |       debug.js.map
+|   |   |   |       debug.mjs
+|   |   |   |       debug.module.js
+|   |   |   |       debug.module.js.map
+|   |   |   |       debug.umd.js
+|   |   |   |       debug.umd.js.map
+|   |   |   |       
+|   |   |   \---src
+|   |   |           check-props.js
+|   |   |           component-stack.js
+|   |   |           constants.js
+|   |   |           debug.js
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           internal.d.ts
+|   |   |           util.js
+|   |   |           
+|   |   +---devtools
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       devtools.js
+|   |   |   |       devtools.js.map
+|   |   |   |       devtools.mjs
+|   |   |   |       devtools.module.js
+|   |   |   |       devtools.module.js.map
+|   |   |   |       devtools.umd.js
+|   |   |   |       devtools.umd.js.map
+|   |   |   |       
+|   |   |   \---src
+|   |   |           devtools.js
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           
+|   |   +---dist
+|   |   |       preact.js
+|   |   |       preact.js.map
+|   |   |       preact.min.js
+|   |   |       preact.min.js.map
+|   |   |       preact.min.module.js
+|   |   |       preact.min.module.js.map
+|   |   |       preact.min.umd.js
+|   |   |       preact.min.umd.js.map
+|   |   |       preact.mjs
+|   |   |       preact.module.js
+|   |   |       preact.module.js.map
+|   |   |       preact.umd.js
+|   |   |       preact.umd.js.map
+|   |   |       
+|   |   +---hooks
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       hooks.js
+|   |   |   |       hooks.js.map
+|   |   |   |       hooks.mjs
+|   |   |   |       hooks.module.js
+|   |   |   |       hooks.module.js.map
+|   |   |   |       hooks.umd.js
+|   |   |   |       hooks.umd.js.map
+|   |   |   |       
+|   |   |   \---src
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           internal.d.ts
+|   |   |           
+|   |   +---jsx-runtime
+|   |   |   |   package.json
+|   |   |   |   
+|   |   |   +---dist
+|   |   |   |       jsxRuntime.js
+|   |   |   |       jsxRuntime.js.map
+|   |   |   |       jsxRuntime.mjs
+|   |   |   |       jsxRuntime.module.js
+|   |   |   |       jsxRuntime.module.js.map
+|   |   |   |       jsxRuntime.umd.js
+|   |   |   |       jsxRuntime.umd.js.map
+|   |   |   |       
+|   |   |   \---src
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           utils.js
+|   |   |           
+|   |   +---src
+|   |   |   |   cjs.js
+|   |   |   |   clone-element.js
+|   |   |   |   component.js
+|   |   |   |   constants.js
+|   |   |   |   create-context.js
+|   |   |   |   create-element.js
+|   |   |   |   dom.d.ts
+|   |   |   |   index-5.d.ts
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   internal.d.ts
+|   |   |   |   jsx.d.ts
+|   |   |   |   options.js
+|   |   |   |   render.js
+|   |   |   |   util.js
+|   |   |   |   
+|   |   |   \---diff
+|   |   |           catch-error.js
+|   |   |           children.js
+|   |   |           index.js
+|   |   |           props.js
+|   |   |           
+|   |   \---test-utils
+|   |       |   package.json
+|   |       |   
+|   |       +---dist
+|   |       |       testUtils.js
+|   |       |       testUtils.js.map
+|   |       |       testUtils.mjs
+|   |       |       testUtils.module.js
+|   |       |       testUtils.module.js.map
+|   |       |       testUtils.umd.js
+|   |       |       testUtils.umd.js.map
+|   |       |       
+|   |       \---src
+|   |               index.d.ts
+|   |               index.js
+|   |               
+|   \---tinyglobby
+|       |   LICENSE
+|       |   package.json
+|       |   README.md
+|       |   
+|       \---dist
+|               index.cjs
+|               index.d.cts
+|               index.d.mts
+|               index.mjs
+|               
++---obj
+|   |   project.assets.json
+|   |   project.nuget.cache
+|   |   TaskFlowSerenity.Web.csproj.nuget.dgspec.json
+|   |   TaskFlowSerenity.Web.csproj.nuget.g.props
+|   |   TaskFlowSerenity.Web.csproj.nuget.g.targets
+|   |   
+|   \---Debug
+|       \---net10.0
+|           |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|           |   apphost.exe
+|           |   rbcswa.dswa.cache.json
+|           |   rjimswa.dswa.cache.json
+|           |   rjsmcshtml.dswa.cache.json
+|           |   rjsmrazor.dswa.cache.json
+|           |   rpswa.dswa.cache.json
+|           |   staticwebassets.build.endpoints.json
+|           |   staticwebassets.build.json
+|           |   staticwebassets.build.json.cache
+|           |   staticwebassets.development.json
+|           |   swae.build.ex.cache
+|           |   TaskFlow.04E53CD3.Up2Date
+|           |   TaskFlowSerenity.Web.AssemblyInfo.cs
+|           |   TaskFlowSerenity.Web.AssemblyInfoInputs.cache
+|           |   TaskFlowSerenity.Web.assets.cache
+|           |   TaskFlowSerenity.Web.csproj.AssemblyReference.cache
+|           |   TaskFlowSerenity.Web.csproj.CoreCompileInputs.cache
+|           |   TaskFlowSerenity.Web.csproj.FileListAbsolute.txt
+|           |   TaskFlowSerenity.Web.dll
+|           |   TaskFlowSerenity.Web.GeneratedMSBuildEditorConfig.editorconfig
+|           |   TaskFlowSerenity.Web.genruntimeconfig.cache
+|           |   TaskFlowSerenity.Web.GlobalUsings.g.cs
+|           |   TaskFlowSerenity.Web.MvcApplicationPartsAssemblyInfo.cache
+|           |   TaskFlowSerenity.Web.MvcApplicationPartsAssemblyInfo.cs
+|           |   TaskFlowSerenity.Web.pdb
+|           |   TaskFlowSerenity.Web.RazorAssemblyInfo.cache
+|           |   TaskFlowSerenity.Web.RazorAssemblyInfo.cs
+|           |   
+|           +---compressed
+|           |       08ihy98v9u-{0}-uebql76rb5-uebql76rb5.gz
+|           |       09rkcxvlwx-{0}-rjn0bmaofy-rjn0bmaofy.gz
+|           |       0m8xwhzo1t-{0}-6xe5x8g4so-6xe5x8g4so.gz
+|           |       0qpzc2wbr0-{0}-jsp8vsxwpp-jsp8vsxwpp.gz
+|           |       1obuclxr0d-{0}-u3faoskohv-u3faoskohv.gz
+|           |       1w7wm7njcg-{0}-ljkuxi5jdl-ljkuxi5jdl.gz
+|           |       2371ofuijq-{0}-hythwm7ocn-hythwm7ocn.gz
+|           |       2m54a775pu-{0}-ds287w4kj7-ds287w4kj7.gz
+|           |       2spcb79fte-{0}-6ka232enpx-6ka232enpx.gz
+|           |       2x14jcbo1h-{0}-d0o18r3qsp-d0o18r3qsp.gz
+|           |       30x3wxvtty-{0}-mvs8miokj8-mvs8miokj8.gz
+|           |       3mz8yr8anp-{0}-09yl5a7n48-09yl5a7n48.gz
+|           |       428z2ttunf-{0}-id5vwp8p47-id5vwp8p47.gz
+|           |       43swto4omy-{0}-ds70mzrkvm-ds70mzrkvm.gz
+|           |       44x5j3x12x-{0}-i44zx7mqlx-i44zx7mqlx.gz
+|           |       49rebm6l3n-{0}-bgn0ztq5hy-bgn0ztq5hy.gz
+|           |       4ofxo7m3ec-{0}-y10r25xzfw-y10r25xzfw.gz
+|           |       4ud2o1okww-{0}-pdiz1e11me-pdiz1e11me.gz
+|           |       60xtajguhz-{0}-uzt4m00qq3-uzt4m00qq3.gz
+|           |       65wo51z9uz-{0}-cwjvxf9th9-cwjvxf9th9.gz
+|           |       6cfdx2zncg-{0}-zduc6ukt7c-zduc6ukt7c.gz
+|           |       6goo8vn3x2-{0}-gzomcj37az-gzomcj37az.gz
+|           |       6lg3x3q9h7-{0}-zc26n4pobq-zc26n4pobq.gz
+|           |       6n688tb3b4-{0}-ob514rn7cl-ob514rn7cl.gz
+|           |       6tk8kz6n6u-{0}-85vbs1dise-85vbs1dise.gz
+|           |       7eypcvtjoz-{0}-xjxdpy4toy-xjxdpy4toy.gz
+|           |       8cdo2tt2aj-{0}-3jn36fgtsf-3jn36fgtsf.gz
+|           |       8g8vlqslig-{0}-f471h7yskc-f471h7yskc.gz
+|           |       8kmj6iw38m-{0}-7m770ecavm-7m770ecavm.gz
+|           |       8yybw3rnbk-{0}-p3a37vymp7-p3a37vymp7.gz
+|           |       a3o39umx2c-{0}-80d1rwwnrj-80d1rwwnrj.gz
+|           |       ab4grjaout-{0}-gd2axrtfxm-gd2axrtfxm.gz
+|           |       arztuip5rc-{0}-1jw0dgfrnf-1jw0dgfrnf.gz
+|           |       athezsyrav-{0}-tiww64l1hz-tiww64l1hz.gz
+|           |       avay103dl4-{0}-kg6unvn2mp-kg6unvn2mp.gz
+|           |       b13a5922hy-{0}-emso5bom4o-emso5bom4o.gz
+|           |       b4tgv8p02i-{0}-p7hj2jktuy-p7hj2jktuy.gz
+|           |       ba4bwcsa04-{0}-xez42s2brd-xez42s2brd.gz
+|           |       bbd2orepgo-{0}-nv2rujqakm-nv2rujqakm.gz
+|           |       bcaaknnoh4-{0}-rk0uo0mjrw-rk0uo0mjrw.gz
+|           |       bgzkimsoys-{0}-m4k66666sg-m4k66666sg.gz
+|           |       c42dgxl5br-{0}-jz9njdkz39-jz9njdkz39.gz
+|           |       d7kv4725kb-{0}-90yqlj465b-90yqlj465b.gz
+|           |       deria8mow5-{0}-kpd1eu7gmn-kpd1eu7gmn.gz
+|           |       e0ilqbb14q-{0}-6vg2a47nlp-6vg2a47nlp.gz
+|           |       e6xfqr14ps-{0}-qldnhu8uty-qldnhu8uty.gz
+|           |       ebh23yeszt-{0}-bxijvj3j5c-bxijvj3j5c.gz
+|           |       eimwirfbwq-{0}-5ipweew5fc-5ipweew5fc.gz
+|           |       emo3hc1n0t-{0}-teulu7ddht-teulu7ddht.gz
+|           |       eq6hoqmqtd-{0}-pkzpbazzkq-pkzpbazzkq.gz
+|           |       esm68l1iv4-{0}-xz3qdgvx0g-xz3qdgvx0g.gz
+|           |       ewmumbcola-{0}-eo9sj1qi5u-eo9sj1qi5u.gz
+|           |       f5u6cgjyis-{0}-x6w59jjos6-x6w59jjos6.gz
+|           |       ffbcnul3zx-{0}-viepxtfc80-viepxtfc80.gz
+|           |       flfuty5c74-{0}-2t3627yj08-2t3627yj08.gz
+|           |       fxf0tf2vp1-{0}-7qv90ncyls-7qv90ncyls.gz
+|           |       g1j0klyenl-{0}-x2y9p5ede3-x2y9p5ede3.gz
+|           |       g2rodix753-{0}-m9ljpnpp8m-m9ljpnpp8m.gz
+|           |       g31qirhd08-{0}-wuke5ibyef-wuke5ibyef.gz
+|           |       gjz7d91g7x-{0}-fv2o3c4kw4-fv2o3c4kw4.gz
+|           |       gr8vjpgdr3-{0}-d45ylsyqnt-d45ylsyqnt.gz
+|           |       gz6rppwvky-{0}-u13n8qs6mv-u13n8qs6mv.gz
+|           |       h6sp11pvux-{0}-uvleh4dxai-uvleh4dxai.gz
+|           |       h8pd662yco-{0}-cwl3wuy3q0-cwl3wuy3q0.gz
+|           |       hacf5r21ni-{0}-75drfmdd2k-75drfmdd2k.gz
+|           |       hdqlbhj312-{0}-8c8z4j3duy-8c8z4j3duy.gz
+|           |       hgm72qqt26-{0}-77dhl78uco-77dhl78uco.gz
+|           |       hlohv2ovsm-{0}-0zej9efkqo-0zej9efkqo.gz
+|           |       k1t6s5mkd1-{0}-dikpu7rtr4-dikpu7rtr4.gz
+|           |       k4ch91s30q-{0}-arwxquytsa-arwxquytsa.gz
+|           |       k8ofj9bbgb-{0}-wyi35htet6-wyi35htet6.gz
+|           |       k90w1h1ilw-{0}-7t37pvuywc-7t37pvuywc.gz
+|           |       kbckt8yznt-{0}-xsgj8oq1o2-xsgj8oq1o2.gz
+|           |       kknhh0j807-{0}-zxv1too81j-zxv1too81j.gz
+|           |       kxeiqh6l7a-{0}-pqfnlht47l-pqfnlht47l.gz
+|           |       l2ep53h48a-{0}-q4gxdt1bws-q4gxdt1bws.gz
+|           |       lsyzyx19rh-{0}-ihap0r1fei-ihap0r1fei.gz
+|           |       lvxuxgrw5n-{0}-fl70d4ioip-fl70d4ioip.gz
+|           |       lwafz22b0s-{0}-n9lmmvih8z-n9lmmvih8z.gz
+|           |       m3138c1x9n-{0}-dqbrtol5ml-dqbrtol5ml.gz
+|           |       mbc19r4j63-{0}-d8w4y75n8u-d8w4y75n8u.gz
+|           |       mg7q3gairi-{0}-r2sm89yi2q-r2sm89yi2q.gz
+|           |       mldx37f0ai-{0}-vasb9iaf2h-vasb9iaf2h.gz
+|           |       mlh30c03zv-{0}-hv5fnth7pn-hv5fnth7pn.gz
+|           |       mt1y1wj5lp-{0}-tsturiiupi-tsturiiupi.gz
+|           |       n3nc5qoq8r-{0}-u3wrlvdw0o-u3wrlvdw0o.gz
+|           |       n7l2h4jlz8-{0}-6ilfm5za86-6ilfm5za86.gz
+|           |       nhoe1lu36n-{0}-3zqbre10to-3zqbre10to.gz
+|           |       nrj6e3ywk8-{0}-4ii7l4gcci-4ii7l4gcci.gz
+|           |       omq0bb3yac-{0}-tyo262zvw1-tyo262zvw1.gz
+|           |       phm30o0jaz-{0}-sfd4ivn3ws-sfd4ivn3ws.gz
+|           |       pkamr6tmxr-{0}-acve36yee1-acve36yee1.gz
+|           |       pmeafbxcb0-{0}-953fj31b6f-953fj31b6f.gz
+|           |       pp8189xic5-{0}-fw6hwvhakz-fw6hwvhakz.gz
+|           |       puvah5z0yp-{0}-jt5as88ekd-jt5as88ekd.gz
+|           |       puwrawcs7t-{0}-wl65i6gu6f-wl65i6gu6f.gz
+|           |       pzte2i551d-{0}-c9y053ai27-c9y053ai27.gz
+|           |       q1jhjrlitd-{0}-fwdi2a2tzz-fwdi2a2tzz.gz
+|           |       q8hud015d5-{0}-cpxotdw0gn-cpxotdw0gn.gz
+|           |       q9ppedju8k-{0}-ns0pb6wvjr-ns0pb6wvjr.gz
+|           |       qa3wvteqjq-{0}-0tuqle8qkw-0tuqle8qkw.gz
+|           |       qi5xlpiwun-{0}-i4jc1od02c-i4jc1od02c.gz
+|           |       qqjm998hls-{0}-3zfc3rxe7m-3zfc3rxe7m.gz
+|           |       r93710drla-{0}-073ns27sys-073ns27sys.gz
+|           |       rjvhr6icfq-{0}-7tjnbxruvt-7tjnbxruvt.gz
+|           |       ryhykw3de4-{0}-vva7fd6745-vva7fd6745.gz
+|           |       s4ocnxcjbu-{0}-ng6u9jiyis-ng6u9jiyis.gz
+|           |       sib9h783aw-{0}-j572bke2d7-j572bke2d7.gz
+|           |       sxkhye7h4a-{0}-49fhvdu0uw-49fhvdu0uw.gz
+|           |       t6y6bsnjwq-{0}-srjg80d7mz-srjg80d7mz.gz
+|           |       uauv02ulqf-{0}-nu7xwsvkv0-nu7xwsvkv0.gz
+|           |       ug6575fiwt-{0}-usury7ipep-usury7ipep.gz
+|           |       v1v1w0vuaz-{0}-p9i0cvw7kf-p9i0cvw7kf.gz
+|           |       vlhhpucbdn-{0}-al7dpc303d-al7dpc303d.gz
+|           |       vxtqpzhped-{0}-ehtquahea6-ehtquahea6.gz
+|           |       w6w6d89snn-{0}-rfjrjnft8q-rfjrjnft8q.gz
+|           |       wc1aaio5eo-{0}-5ie18hbt2i-5ie18hbt2i.gz
+|           |       weeqzcbkoi-{0}-yf6d09l9we-yf6d09l9we.gz
+|           |       wji211n40g-{0}-4szs2umot6-4szs2umot6.gz
+|           |       x2xkwdtnzg-{0}-4p142unfli-4p142unfli.gz
+|           |       xc4h8rwtw8-{0}-ps9jrm3woa-ps9jrm3woa.gz
+|           |       xjffphl3ov-{0}-xv35nlcm18-xv35nlcm18.gz
+|           |       xm37bfbt4t-{0}-cu0vylvzny-cu0vylvzny.gz
+|           |       xptsg3ut7h-{0}-j5bv7mofse-j5bv7mofse.gz
+|           |       y1y37ovxe4-{0}-hmuwyg4l6g-hmuwyg4l6g.gz
+|           |       ykabwwufxv-{0}-004pnu1s7p-004pnu1s7p.gz
+|           |       yo939cyjvs-{0}-5pifa0agf3-5pifa0agf3.gz
+|           |       yrhp58qcj1-{0}-ix5tdsqlyt-ix5tdsqlyt.gz
+|           |       z6apn12iyk-{0}-heutyq0c6p-heutyq0c6p.gz
+|           |       za169pv1ln-{0}-hnnfdgz6cs-hnnfdgz6cs.gz
+|           |       zet1psxjdg-{0}-rlvz8k62jr-rlvz8k62jr.gz
+|           |       zqecvrzf6t-{0}-gef3zaap5m-gef3zaap5m.gz
+|           |       zzd1x01fvp-{0}-jvpz34fvzx-jvpz34fvzx.gz
+|           |       
+|           +---ref
+|           |       TaskFlowSerenity.Web.dll
+|           |       
+|           +---refint
+|           |       TaskFlowSerenity.Web.dll
+|           |       
+|           \---staticwebassets
++---Properties
+|       launchSettings.json
+|       
++---texts
+|   |   SiteFormTexts.cs
+|   |   SiteLayoutTexts.cs
+|   |   SiteNavigationTexts.cs
+|   |   
+|   \---resources
+|           site.texts.de.json
+|           site.texts.es.json
+|           site.texts.fa.json
+|           site.texts.it.json
+|           site.texts.pt-BR.json
+|           site.texts.pt.json
+|           site.texts.ru.json
+|           site.texts.tr.json
+|           site.texts.vi-VN.json
+|           site.texts.zh-CN.json
+|           
++---Views
+|   |   _ViewImports.cshtml
+|   |   _ViewStart.cshtml
+|   |   
+|   +---Errors
+|   |       AccessDenied.cshtml
+|   |       AccessDeniedViewTexts.cs
+|   |       ValidationError.cshtml
+|   |       ValidationErrorViewTexts.cs
+|   |       
+|   \---Shared
+|           Error.cshtml
+|           _Layout.cshtml
+|           _LayoutHead.cshtml
+|           _LayoutNoNavigation.cshtml
+|           _Sidebar.cshtml
+|           
+\---wwwroot
+    |   favicon.ico
+    |   
+    +---Content
+    |   \---site
+    |           site.css
+    |           site.htmlcontent.css
+    |           
+    +---esm
+    |   +---Modules
+    |   |   +---Administration
+    |   |   |   +---Language
+    |   |   |   |       LanguagePage.js
+    |   |   |   |       LanguagePage.js.map
+    |   |   |   |       
+    |   |   |   +---Role
+    |   |   |   |       RolePage.js
+    |   |   |   |       RolePage.js.map
+    |   |   |   |       
+    |   |   |   +---Translation
+    |   |   |   |       TranslationPage.js
+    |   |   |   |       TranslationPage.js.map
+    |   |   |   |       
+    |   |   |   \---User
+    |   |   |           UserPage.js
+    |   |   |           UserPage.js.map
+    |   |   |           
+    |   |   +---Common
+    |   |   |       ScriptInit.js
+    |   |   |       ScriptInit.js.map
+    |   |   |       
+    |   |   \---Membership
+    |   |       \---Account
+    |   |           +---Login
+    |   |           |       LoginPage.js
+    |   |           |       LoginPage.js.map
+    |   |           |       
+    |   |           \---SignUp
+    |   |                   SignUpPage.js
+    |   |                   SignUpPage.js.map
+    |   |                   
+    |   \---_chunks
+    |           chunk-3CYRTJWA.js
+    |           chunk-3CYRTJWA.js.map
+    |           chunk-5F7MLNGJ.js
+    |           chunk-5F7MLNGJ.js.map
+    |           chunk-MKWQKDDO.js
+    |           chunk-MKWQKDDO.js.map
+    |           chunk-OL7A6VBL.js
+    |           chunk-OL7A6VBL.js.map
+    |           chunk-PCZG6246.js
+    |           chunk-PCZG6246.js.map
+    |           chunk-UD4PLWGR.js
+    |           chunk-UD4PLWGR.js.map
+    |           
+    \---npm
+        +---bootstrap-datepicker
+        |   \---dist
+        |       +---css
+        |       |       bootstrap-datepicker.min.css
+        |       |       
+        |       \---js
+        |               bootstrap-datepicker.min.js
+        |               
+        +---chart.js
+        |   \---dist
+        |           chart.umd.js
+        |           chart.umd.min.js
+        |           
+        +---daterangepicker
+        |       daterangepicker.css
+        |       daterangepicker.js
+        |       
+        +---flatpickr
+        |   \---dist
+        |           flatpickr.css
+        |           flatpickr.min.css
+        |           
+        +---jquery-knob
+        |   \---dist
+        |           jquery.knob.min.js
+        |           
+        +---jquery-sparkline
+        |       jquery.sparkline.min.js
+        |       
+        +---jvectormap-content
+        |       world-mill.js
+        |       
+        +---jvectormap-next
+        |       jquery-jvectormap.css
+        |       jquery-jvectormap.min.js
+        |       
+        \---moment
+            \---min
+                    moment.min.js
+                    

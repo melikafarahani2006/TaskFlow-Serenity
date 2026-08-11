@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "sergen": {
+      "version": "10.3.6",
+      "commands": [
+        "sergen"
+      ],
+      "rollForward": false
+    }
+  }
+}
