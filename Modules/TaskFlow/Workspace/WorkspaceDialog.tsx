@@ -36,6 +36,15 @@ export class WorkspaceDialog extends EntityDialog<WorkspaceRow, any> {
 
         });
 
+        entity.MemberList?.forEach(member => {
+            delete member.CreatedAt;
+            delete member.UpdatedAt;
+            delete member.IsDeleted;
+            delete member.WorkspaceId;
+            delete member.WorkspaceName;
+            delete member.UserDisplayName;
+        });
+
         return entity;
     }
 

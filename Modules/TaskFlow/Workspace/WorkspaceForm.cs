@@ -12,4 +12,9 @@ public class WorkspaceForm
     [ProjectEditor]
     [SkipNameCheck]
     public List<ProjectRow> ProjectList { get; set; }
+
+    [DisplayName("Members")]
+    [WorkspaceMemberEditor]
+    [SkipNameCheck]
+    public List<WorkspaceMemberRow> MemberList { get; set; }
 }

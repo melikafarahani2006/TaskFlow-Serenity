@@ -4,9 +4,9 @@ namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("WorkspaceMember")]
 [DisplayName("Workspace Member"), InstanceName("Workspace Member")]
-[ReadPermission("Administration:General")]
-[ModifyPermission("Administration:General")]
-[ServiceLookupPermission("Administration:General")]
+[ReadPermission(TaskFlowPermissionKeys.Access)]
+[ModifyPermission(TaskFlowPermissionKeys.Manage)]
+[ServiceLookupPermission(TaskFlowPermissionKeys.Manage)]
 public sealed class WorkspaceMemberRow :
     Row<WorkspaceMemberRow.RowFields>,
     IIdRow,

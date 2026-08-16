@@ -4,9 +4,9 @@ namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("Workspace")]
 [DisplayName("Workspace"), InstanceName("Workspace")]
-[ReadPermission("TaskFlow:Workspace")]
-[ModifyPermission("TaskFlow:Workspace")]
-[ServiceLookupPermission("TaskFlow:Workspace")]
+[ReadPermission(TaskFlowPermissionKeys.Access)]
+[ModifyPermission(TaskFlowPermissionKeys.Manage)]
+[ServiceLookupPermission(TaskFlowPermissionKeys.Access)]
 public sealed class WorkspaceRow : Row<WorkspaceRow.RowFields>, IIdRow, INameRow, IIsDeletedRow
 {
     [DisplayName("Id"), PrimaryKey, NotNull, IdProperty]
@@ -41,6 +41,16 @@ public sealed class WorkspaceRow : Row<WorkspaceRow.RowFields>, IIdRow, INameRow
         set => fields.ProjectList[this] = value;
     }
 
+    [DisplayName("Members"), NotMapped]
+    [MasterDetailRelation(
+    foreignKey: nameof(WorkspaceMemberRow.WorkspaceId),
+    ColumnsType = typeof(WorkspaceMemberColumns))]
+    public List<WorkspaceMemberRow> MemberList
+    {
+        get => fields.MemberList[this];
+        set => fields.MemberList[this] = value;
+    }
+
 
     BooleanField IIsDeletedRow.IsDeletedField => fields.IsDeleted;
     public class RowFields : RowFieldsBase
@@ -53,5 +63,6 @@ public sealed class WorkspaceRow : Row<WorkspaceRow.RowFields>, IIdRow, INameRow
         public BooleanField IsDeleted;
 
         public RowListField<ProjectRow> ProjectList;
+        public RowListField<WorkspaceMemberRow> MemberList;
     }
 }

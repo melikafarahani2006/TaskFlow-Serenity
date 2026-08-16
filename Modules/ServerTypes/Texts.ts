@@ -165,6 +165,7 @@ namespace texts {
                 export const EntitySingular: string;
                 export const Id: string;
                 export const IsDeleted: string;
+                export const MemberList: string;
                 export const Name: string;
                 export const ProjectList: string;
                 export const UpdatedAt: string;

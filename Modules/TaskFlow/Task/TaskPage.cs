@@ -1,6 +1,6 @@
-﻿namespace TaskFlowSerenity.TaskFlow.Pages;
+namespace TaskFlowSerenity.TaskFlow.Pages;
 
-[PageAuthorize(typeof(TaskRow))]
+[PageAuthorize(TaskFlowPermissionKeys.Access)]
 public class TaskPage : Controller
 {
     [Route("TaskFlow/Task")]

@@ -2,9 +2,9 @@ namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("Task")]
 [DisplayName("Task"), InstanceName("Task")]
-[ReadPermission("Administration:General")]
-[ModifyPermission("Administration:General")]
-[ServiceLookupPermission("Administration:General")]
+[ReadPermission(TaskFlowPermissionKeys.Access)]
+[ModifyPermission(TaskFlowPermissionKeys.Manage)]
+[ServiceLookupPermission(TaskFlowPermissionKeys.Access)]
 public sealed class TaskRow : Row<TaskRow.RowFields>, IIdRow, INameRow, IIsDeletedRow
 {
     const string jProject = nameof(jProject);

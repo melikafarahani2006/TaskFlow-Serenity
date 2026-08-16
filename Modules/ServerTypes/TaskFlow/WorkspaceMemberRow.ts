@@ -16,10 +16,10 @@ export abstract class WorkspaceMemberRow {
     static readonly idProperty = 'Id';
     static readonly nameProperty = 'Role';
     static readonly localTextPrefix = 'TaskFlow.WorkspaceMember';
-    static readonly deletePermission = 'Administration:General';
-    static readonly insertPermission = 'Administration:General';
-    static readonly readPermission = 'Administration:General';
-    static readonly updatePermission = 'Administration:General';
+    static readonly deletePermission = 'TaskFlow:Manage';
+    static readonly insertPermission = 'TaskFlow:Manage';
+    static readonly readPermission = 'TaskFlow:Access';
+    static readonly updatePermission = 'TaskFlow:Manage';
 
     static readonly Fields = fieldsProxy<WorkspaceMemberRow>();
 }

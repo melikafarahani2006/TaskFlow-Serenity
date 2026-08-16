@@ -2,9 +2,9 @@ namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("Tag")]
 [DisplayName("Tag"), InstanceName("Tag")]
-[ReadPermission("Administration:General")]
-[ModifyPermission("Administration:General")]
-[ServiceLookupPermission("Administration:General")]
+[ReadPermission(TaskFlowPermissionKeys.Access)]
+[ModifyPermission(TaskFlowPermissionKeys.Manage)]
+[ServiceLookupPermission(TaskFlowPermissionKeys.Access)]
 public sealed class TagRow : Row<TagRow.RowFields>, IIdRow, INameRow, IIsDeletedRow
 {
     [DisplayName("Id"), PrimaryKey, NotNull, IdProperty]

@@ -1,6 +1,6 @@
-﻿namespace TaskFlowSerenity.TaskFlow.Pages;
+namespace TaskFlowSerenity.TaskFlow.Pages;
 
-[PageAuthorize(typeof(TagRow))]
+[PageAuthorize(TaskFlowPermissionKeys.Manage)]
 public class TagPage : Controller
 {
     [Route("TaskFlow/Tag")]

@@ -1,6 +1,6 @@
-﻿namespace TaskFlowSerenity.TaskFlow.Pages;
+namespace TaskFlowSerenity.TaskFlow.Pages;
 
-[PageAuthorize(typeof(ProjectRow))]
+[PageAuthorize(TaskFlowPermissionKeys.Access)]
 public class ProjectPage : Controller
 {
     [Route("TaskFlow/Project")]
