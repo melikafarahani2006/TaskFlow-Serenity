@@ -1,4 +1,5 @@
 ﻿import { fieldsProxy } from "@serenity-is/corelib";
+import { ProjectRow } from "./ProjectRow";
 
 export interface WorkspaceRow {
     Id?: string;
@@ -7,6 +8,7 @@ export interface WorkspaceRow {
     CreatedAt?: string;
     UpdatedAt?: string;
     IsDeleted?: boolean;
+    ProjectList?: ProjectRow[];
 }
 
 export abstract class WorkspaceRow {

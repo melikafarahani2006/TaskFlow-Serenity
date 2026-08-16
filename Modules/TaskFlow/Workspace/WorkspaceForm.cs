@@ -5,5 +5,11 @@ namespace TaskFlowSerenity.TaskFlow.Forms;
 public class WorkspaceForm
 {
     public string Name { get; set; }
+
     public string Description { get; set; }
+
+    [DisplayName("Projects")]
+    [ProjectEditor]
+    [SkipNameCheck]
+    public List<ProjectRow> ProjectList { get; set; }
 }

@@ -20,6 +20,20 @@ public class TaskSaveHandler(IRequestContext context) :
 
             if (Row.Order == null)
                 Row.Order = 0;
+
+            if (Row.TaskStateId == null)
+            {
+                var f = TaskStateRow.Fields;
+
+                Row.TaskStateId = Connection
+                    .TryFirst<TaskStateRow>(q => q
+                        .Select(f.Id)
+                        .Where(f.Name == "To Do" & f.IsDeleted == 0))
+                    ?.Id;
+            }
+
+            if (Row.Duration == null || Row.Duration <= 0)
+                Row.Duration = 1;
         }
 
         if (IsUpdate)

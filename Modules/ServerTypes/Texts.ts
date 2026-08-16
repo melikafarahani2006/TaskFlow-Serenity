@@ -94,6 +94,7 @@ namespace texts {
                 export const Id: string;
                 export const IsDeleted: string;
                 export const Name: string;
+                export const TaskList: string;
                 export const UpdatedAt: string;
                 export const WorkspaceId: string;
                 export const WorkspaceName: string;
@@ -116,11 +117,13 @@ namespace texts {
                 export const CreatedAt: string;
                 export const Description: string;
                 export const DueDate: string;
+                export const Duration: string;
                 export const EntityPlural: string;
                 export const EntitySingular: string;
                 export const Id: string;
                 export const IsDeleted: string;
                 export const Order: string;
+                export const Priority: string;
                 export const ProjectId: string;
                 export const ProjectName: string;
                 export const TagIds: string;
@@ -163,6 +166,7 @@ namespace texts {
                 export const Id: string;
                 export const IsDeleted: string;
                 export const Name: string;
+                export const ProjectList: string;
                 export const UpdatedAt: string;
             }
             namespace WorkspaceMember {

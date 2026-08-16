@@ -1,34 +1,29 @@
-﻿import { EnumEditor, initFormType, IntegerEditor, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
+﻿import { initFormType, IntegerEditor, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
 import { PersianDateEditor } from "../../Common/PersianDateEditor";
-import { TaskPriority } from "./TaskPriority";
 
-export interface TaskForm {
-    ProjectId: ServiceLookupEditor;
+export interface TaskDetailForm {
     Title: StringEditor;
     Description: StringEditor;
     TaskStateId: ServiceLookupEditor;
-    Priority: EnumEditor;
     DueDate: PersianDateEditor;
     Duration: IntegerEditor;
     TagIds: ServiceLookupEditor;
 }
 
-export class TaskForm extends PrefixedContext {
-    static readonly formKey = 'TaskFlow.Task';
+export class TaskDetailForm extends PrefixedContext {
+    static readonly formKey = 'TaskFlow.TaskDetail';
     declare private static init: boolean;
 
     constructor(...args: ConstructorParameters<typeof PrefixedContext>) {
         super(...args);
 
-        if (!TaskForm.init) {
-            TaskForm.init = true;
+        if (!TaskDetailForm.init) {
+            TaskDetailForm.init = true;
 
-            initFormType(TaskForm, [
-                'ProjectId', ServiceLookupEditor,
+            initFormType(TaskDetailForm, [
                 'Title', StringEditor,
                 'Description', StringEditor,
                 'TaskStateId', ServiceLookupEditor,
-                'Priority', EnumEditor,
                 'DueDate', PersianDateEditor,
                 'Duration', IntegerEditor,
                 'TagIds', ServiceLookupEditor
@@ -36,5 +31,3 @@ export class TaskForm extends PrefixedContext {
         }
     }
 }
-
-[TaskPriority]; // referenced types

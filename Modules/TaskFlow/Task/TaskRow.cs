@@ -46,6 +46,7 @@ public sealed class TaskRow : Row<TaskRow.RowFields>, IIdRow, INameRow, IIsDelet
     }
 
     [DisplayName("Due Date")]
+    [EditorType("TaskFlowSerenity.Common.PersianDateEditor")]
     public DateTime? DueDate
     {
         get => fields.DueDate[this];
@@ -58,6 +59,14 @@ public sealed class TaskRow : Row<TaskRow.RowFields>, IIdRow, INameRow, IIsDelet
     {
         get => fields.Order[this];
         set => fields.Order[this] = value;
+    }
+
+    [DisplayName("Duration"), NotNull]
+    [DefaultValue(1)]
+    public int? Duration
+    {
+        get => fields.Duration[this];
+        set => fields.Duration[this] = value;
     }
 
     [DisplayName("Created At"), NotNull]
@@ -79,6 +88,14 @@ public sealed class TaskRow : Row<TaskRow.RowFields>, IIdRow, INameRow, IIsDelet
     {
         get => fields.TaskStateId[this];
         set => fields.TaskStateId[this] = value;
+    }
+
+    [DisplayName("Priority"), NotNull]
+    [DefaultValue(TaskPriority.Medium)]
+    public TaskPriority? Priority
+    {
+        get => fields.Priority[this];
+        set => fields.Priority[this] = value;
     }
 
     [DisplayName("Updated At")]
@@ -153,8 +170,10 @@ public sealed class TaskRow : Row<TaskRow.RowFields>, IIdRow, INameRow, IIsDelet
         public StringField Description;
         public DateTimeField DueDate;
         public Int32Field Order;
+        public Int32Field Duration;
         public DateTimeField CreatedAt;
         public GuidField TaskStateId;
+        public EnumField<TaskPriority> Priority;
         public DateTimeField UpdatedAt;
         public BooleanField IsDeleted;
 

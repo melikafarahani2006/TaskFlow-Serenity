@@ -5,7 +5,8 @@
 var hideNav = (string)Context.Request.Query["hideNav"] == "1";
 var sidebarPaneCollapsed = Context?.Request?.Cookies?["SidebarPaneCollapsed"] == "1" ? " s-sidebar-pane-collapsed" : "";
 }
-<html lang="@System.Globalization.CultureInfo.CurrentUICulture.Name" class="@(hideNav ? " no-navigation" : "")">
+<html lang="@System.Globalization.CultureInfo.CurrentUICulture.Name" dir="rtl" class="@(hideNav ? " no-navigation" : "")">
+
 <head>
     <partial name="@MVC.Views.Shared._LayoutHead" />
     @RenderSection("Head", false)

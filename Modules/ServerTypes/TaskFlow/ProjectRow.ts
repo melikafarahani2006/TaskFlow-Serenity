@@ -1,4 +1,5 @@
 ﻿import { fieldsProxy } from "@serenity-is/corelib";
+import { TaskRow } from "./TaskRow";
 
 export interface ProjectRow {
     Id?: string;
@@ -9,6 +10,7 @@ export interface ProjectRow {
     UpdatedAt?: string;
     IsDeleted?: boolean;
     WorkspaceName?: string;
+    TaskList?: TaskRow[];
 }
 
 export abstract class ProjectRow {

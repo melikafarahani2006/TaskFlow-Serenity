@@ -1,9 +1,11 @@
 ﻿import { initFormType, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
+import { TaskEditor } from "../../TaskFlow/Task/TaskEditor";
 
 export interface ProjectForm {
     WorkspaceId: ServiceLookupEditor;
     Name: StringEditor;
     Description: StringEditor;
+    TaskList: TaskEditor;
 }
 
 export class ProjectForm extends PrefixedContext {
@@ -19,7 +21,8 @@ export class ProjectForm extends PrefixedContext {
             initFormType(ProjectForm, [
                 'WorkspaceId', ServiceLookupEditor,
                 'Name', StringEditor,
-                'Description', StringEditor
+                'Description', StringEditor,
+                'TaskList', TaskEditor
             ]);
         }
     }

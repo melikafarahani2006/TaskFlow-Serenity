@@ -1,20 +1,18 @@
 namespace TaskFlowSerenity.TaskFlow.Forms;
 
-[FormScript("TaskFlow.Task")]
+[FormScript("TaskFlow.TaskDetail")]
 [BasedOnRow(typeof(TaskRow), CheckNames = true)]
-public class TaskForm
+public class TaskDetailForm
 {
-    public Guid ProjectId { get; set; }
     public string Title { get; set; }
-    public string Description { get; set; }
-    public Guid TaskStateId { get; set; }
-    public TaskPriority Priority { get; set; }
-    public DateTime DueDate { get; set; }
 
-    [DisplayName("Duration (Hours)")]
-    [DefaultValue(1)]
+    public string Description { get; set; }
+
+    public Guid TaskStateId { get; set; }
+
+    public DateTime? DueDate { get; set; }
+
     public int Duration { get; set; }
 
-    [DisplayName("Tags")]
     public List<Guid> TagIds { get; set; }
 }

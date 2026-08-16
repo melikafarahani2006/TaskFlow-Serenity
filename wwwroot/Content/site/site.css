@@ -11,3 +11,28 @@
 .s-PermissionCheckEditor {
   min-height: 450px;
 }
+
+html[dir="rtl"] .s-sidebar {
+  left: auto !important;
+  right: 0 !important;
+}
+
+html[dir="rtl"] .s-main {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 300px !important;
+}
+
+.s-dashboard-card-sm .icon {
+  position: absolute !important;
+  top: 10px !important;
+  right: 15px !important;
+  left: auto !important;
+}
+
+.s-dashboard-card-sm h3,
+.s-dashboard-card-sm p {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}

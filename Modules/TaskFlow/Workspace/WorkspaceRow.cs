@@ -1,3 +1,5 @@
+using TaskFlowSerenity.TaskFlow.Columns;
+
 namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("Workspace")]
@@ -29,6 +31,16 @@ public sealed class WorkspaceRow : Row<WorkspaceRow.RowFields>, IIdRow, INameRow
     [Insertable(false), Updatable(false)]
     public bool? IsDeleted { get => fields.IsDeleted[this]; set => fields.IsDeleted[this] = value; }
 
+    [DisplayName("Projects"), NotMapped]
+    [MasterDetailRelation(
+    foreignKey: nameof(ProjectRow.WorkspaceId),
+    ColumnsType = typeof(ProjectColumns))]
+    public List<ProjectRow> ProjectList
+    {
+        get => fields.ProjectList[this];
+        set => fields.ProjectList[this] = value;
+    }
+
 
     BooleanField IIsDeletedRow.IsDeletedField => fields.IsDeleted;
     public class RowFields : RowFieldsBase
@@ -40,5 +52,6 @@ public sealed class WorkspaceRow : Row<WorkspaceRow.RowFields>, IIdRow, INameRow
         public DateTimeField UpdatedAt;
         public BooleanField IsDeleted;
 
+        public RowListField<ProjectRow> ProjectList;
     }
 }

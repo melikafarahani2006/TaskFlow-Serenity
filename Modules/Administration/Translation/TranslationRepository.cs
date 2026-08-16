@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Serenity.Localization;
 using System.IO;
@@ -54,7 +55,8 @@ public partial class TranslationRepository(IRequestContext context, IWebHostEnvi
         var textsFilePath = GetUserTextsFilePath(HostEnvironment, targetLanguageID);
         if (File.Exists(textsFilePath))
         {
-            var json = JSON.Parse<Dictionary<string, JToken>>(File.ReadAllText(textsFilePath));
+            var json = JsonConvert.DeserializeObject<Dictionary<string, JToken>>(
+                File.ReadAllText(textsFilePath)) ?? new Dictionary<string, JToken>();
             JsonLocalTextRegistration.ProcessNestedDictionary(json, "", customTranslations);
             foreach (var key in customTranslations.Keys)
                 availableKeys.Add(key);

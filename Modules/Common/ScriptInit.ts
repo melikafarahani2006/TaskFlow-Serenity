@@ -9,7 +9,7 @@ Config.rootNamespaces.push('TaskFlowSerenity');
 TranslationConfig.getLanguageList = getLanguageList;
 gridDefaults.sanitizer = (globalThis.DOMPurify = DOMPurify).sanitize;
 
-let culture = (document.documentElement?.lang || 'en').toLowerCase();
+let culture = (document.documentElement?.lang || 'fa').toLowerCase();
 if (flatpickr.l10ns[culture]) {
     flatpickr.localize(flatpickr.l10ns[culture]);
 } else {

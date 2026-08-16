@@ -1,4 +1,5 @@
 ﻿import { fieldsProxy } from "@serenity-is/corelib";
+import { TaskPriority } from "./TaskPriority";
 
 export interface TaskRow {
     Id?: string;
@@ -7,8 +8,10 @@ export interface TaskRow {
     Description?: string;
     DueDate?: string;
     Order?: number;
+    Duration?: number;
     CreatedAt?: string;
     TaskStateId?: string;
+    Priority?: TaskPriority;
     UpdatedAt?: string;
     IsDeleted?: boolean;
     ProjectName?: string;

@@ -1,4 +1,5 @@
 ﻿export * from "./TaskFlow/ProjectColumns";
+export * from "./TaskFlow/ProjectDetailForm";
 export * from "./TaskFlow/ProjectForm";
 export * from "./TaskFlow/ProjectRow";
 export * from "./TaskFlow/ProjectService";
@@ -7,7 +8,9 @@ export * from "./TaskFlow/TagForm";
 export * from "./TaskFlow/TagRow";
 export * from "./TaskFlow/TagService";
 export * from "./TaskFlow/TaskColumns";
+export * from "./TaskFlow/TaskDetailForm";
 export * from "./TaskFlow/TaskForm";
+export * from "./TaskFlow/TaskPriority";
 export * from "./TaskFlow/TaskRow";
 export * from "./TaskFlow/TaskService";
 export * from "./TaskFlow/TaskStateColumns";
