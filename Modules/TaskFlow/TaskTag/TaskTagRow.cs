@@ -2,8 +2,8 @@ namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("TaskTag")]
 [DisplayName("Task Tag"), InstanceName("Task Tag")]
-[ReadPermission("Administration:General")]
-[ModifyPermission("Administration:General")]
+[ReadPermission(TaskFlowPermissionKeys.Access)]
+[ModifyPermission(TaskFlowPermissionKeys.Manage)]
 public sealed class TaskTagRow : Row<TaskTagRow.RowFields>, IIdRow
 {
     const string jTask = nameof(jTask);

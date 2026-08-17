@@ -17,19 +17,23 @@ public class WorkspaceMemberListHandler(IRequestContext context) :
 
         var userId = Convert.ToInt32(User.GetIdentifier());
 
+        if (Permissions.HasPermission(
+             TaskFlowSerenity.Administration.PermissionKeys.Security))
+            return;
+
         var member = MyRow.Fields;
-        var owner = WorkspaceMemberRow.Fields.As("owner");
+        var membership = WorkspaceMemberRow.Fields.As("membership");
 
         query.Where(
             Criteria.Exists(
                 query.SubQuery()
-                    .From(owner)
+                    .From(membership)
                     .Select("1")
                     .Where(
-                        owner.WorkspaceId == member.WorkspaceId &
-                        owner.UserId == userId &
-                        owner.Role == "Owner" &
-                        owner.IsDeleted == 0
+                        membership.WorkspaceId == member.WorkspaceId &
+                        membership.UserId == userId &
+                        //owner.Role == "Owner" &
+                        membership.IsDeleted == 0
                     )
             )
         );

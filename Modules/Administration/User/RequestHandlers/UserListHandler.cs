@@ -31,6 +31,11 @@ public class UserListHandler(IRequestContext context)
                 .Where(userRole.RoleId.In(adminRoleIds));
 
             query.Where(MyRow.Fields.UserId.NotIn(adminUserIds));
+
+
+            var currentUserId = Convert.ToInt32(User.GetIdentifier());
+
+            query.Where(MyRow.Fields.UserId != currentUserId);
         }
     }
 }
