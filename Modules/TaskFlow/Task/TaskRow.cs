@@ -81,9 +81,7 @@ public sealed class TaskRow : Row<TaskRow.RowFields>, IIdRow, INameRow, IIsDelet
     [ForeignKey(typeof(TaskStateRow))]
     [LeftJoin(jTaskState)]
     [TextualField(nameof(TaskStateName))]
-    [ServiceLookupEditor(
-        typeof(TaskStateRow),
-        Service = "TaskFlow/TaskState/List")]
+    [LookupEditor(typeof(TaskStateRow))]
     public Guid? TaskStateId
     {
         get => fields.TaskStateId[this];

@@ -1,10 +1,10 @@
-﻿import { initFormType, IntegerEditor, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
+﻿import { initFormType, IntegerEditor, LookupEditor, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
 import { PersianDateEditor } from "../../Common/PersianDateEditor";
 
 export interface TaskDetailForm {
     Title: StringEditor;
     Description: StringEditor;
-    TaskStateId: ServiceLookupEditor;
+    TaskStateId: LookupEditor;
     DueDate: PersianDateEditor;
     Duration: IntegerEditor;
     TagIds: ServiceLookupEditor;
@@ -23,7 +23,7 @@ export class TaskDetailForm extends PrefixedContext {
             initFormType(TaskDetailForm, [
                 'Title', StringEditor,
                 'Description', StringEditor,
-                'TaskStateId', ServiceLookupEditor,
+                'TaskStateId', LookupEditor,
                 'DueDate', PersianDateEditor,
                 'Duration', IntegerEditor,
                 'TagIds', ServiceLookupEditor

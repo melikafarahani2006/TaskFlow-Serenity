@@ -1,4 +1,4 @@
-﻿import { fieldsProxy } from "@serenity-is/corelib";
+﻿import { fieldsProxy, getLookup, getLookupAsync } from "@serenity-is/corelib";
 
 export interface TaskStateRow {
     Id?: string;
@@ -14,6 +14,12 @@ export abstract class TaskStateRow {
     static readonly isDeletedProperty = 'IsDeleted';
     static readonly nameProperty = 'Name';
     static readonly localTextPrefix = 'TaskFlow.TaskState';
+    static readonly lookupKey = 'TaskFlow.TaskState';
+
+    /** @deprecated use getLookupAsync instead */
+    static getLookup() { return getLookup<TaskStateRow>('TaskFlow.TaskState') }
+    static async getLookupAsync() { return getLookupAsync<TaskStateRow>('TaskFlow.TaskState') }
+
     static readonly deletePermission = 'TaskFlow:Manage';
     static readonly insertPermission = 'TaskFlow:Manage';
     static readonly readPermission = 'TaskFlow:Access';

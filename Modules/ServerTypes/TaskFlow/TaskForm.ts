@@ -1,4 +1,4 @@
-﻿import { EnumEditor, initFormType, IntegerEditor, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
+﻿import { EnumEditor, initFormType, IntegerEditor, LookupEditor, PrefixedContext, ServiceLookupEditor, StringEditor } from "@serenity-is/corelib";
 import { PersianDateEditor } from "../../Common/PersianDateEditor";
 import { TaskPriority } from "./TaskPriority";
 
@@ -6,7 +6,7 @@ export interface TaskForm {
     ProjectId: ServiceLookupEditor;
     Title: StringEditor;
     Description: StringEditor;
-    TaskStateId: ServiceLookupEditor;
+    TaskStateId: LookupEditor;
     Priority: EnumEditor;
     DueDate: PersianDateEditor;
     Duration: IntegerEditor;
@@ -27,7 +27,7 @@ export class TaskForm extends PrefixedContext {
                 'ProjectId', ServiceLookupEditor,
                 'Title', StringEditor,
                 'Description', StringEditor,
-                'TaskStateId', ServiceLookupEditor,
+                'TaskStateId', LookupEditor,
                 'Priority', EnumEditor,
                 'DueDate', PersianDateEditor,
                 'Duration', IntegerEditor,

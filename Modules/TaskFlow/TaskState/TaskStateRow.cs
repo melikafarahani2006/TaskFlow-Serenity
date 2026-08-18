@@ -2,9 +2,10 @@ namespace TaskFlowSerenity.TaskFlow;
 
 [ConnectionKey("Default"), Module("TaskFlow"), TableName("TaskState")]
 [DisplayName("Task State"), InstanceName("Task State")]
+[ServiceLookupPermission(TaskFlowPermissionKeys.Access)]
 [ReadPermission(TaskFlowPermissionKeys.Access)]
 [ModifyPermission(TaskFlowPermissionKeys.Manage)]
-[ServiceLookupPermission(TaskFlowPermissionKeys.Access)]
+[LookupScript]
 public sealed class TaskStateRow : Row<TaskStateRow.RowFields>, IIdRow, INameRow, IIsDeletedRow
 {
     [DisplayName("Id"), PrimaryKey, NotNull, IdProperty]
